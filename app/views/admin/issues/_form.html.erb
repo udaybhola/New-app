@@ -1,0 +1,33 @@
+<%= f.input :region_type, input_html: { value: @region_type }, as: :hidden %>
+<%= f.input :region_id, input_html:  {value: @region_id}, as: :hidden %>
+
+<%#= f.input :show_on_dashboard %>
+
+<%= f.input :title %>
+<%= f.input :description, as: :text %>
+
+<%= f.simple_fields_for :attachments, Attachment.new do |images_form| %>
+  <div>
+    <%= images_form.label :media %>
+    <%= images_form.file_field :media, multiple: true, name: "issue[attachments_attributes][][media]" %>
+  </div>
+<% end %>
+
+<% @issue.attachments.each do |attachment| %>
+  <% if attachment.media_url %>
+    <%= cl_image_tag attachment.media_url, height: 150, crop: :scale %>
+    <%  attachments_delete_params =
+        {
+        issue:
+          {              
+            attachments_attributes: { id: attachment.id, _destroy: true }
+          }
+        }
+    %>
+
+    <%= link_to "Delete", admin_issue_path(@issue.id, attachments_delete_params), method: :patch, data: { confirm: 'Are you sure?' } %>
+
+  <% end %>
+<% end %>
+
+<%= f.submit %>

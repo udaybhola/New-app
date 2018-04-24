@@ -1,0 +1,1 @@
+json.extract! post, :id, :question, :title, :description, :type, :category, :poll_options, :media, :comments, :created_by, :counts, :created_time, :is_liked_by_me, :constituency, :poll_options_as_image

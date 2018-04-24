@@ -1,0 +1,54 @@
+<fieldset class="form-fieldset">
+  <legend class="form-legend">Candidate Profile</legend>
+  <%= f.input :phone_number %>
+  <%= f.association :label %>
+
+<%= f.simple_fields_for :profile do |profile| %>
+
+  <%= profile.input :name %>
+  <%= profile.input :date_of_birth, 
+                    as: :date,
+                    start_year: Date.today.year - 99,
+                    end_year: Date.today.year - 18 %>
+  <%= profile.input :gender %>
+</fieldset>
+
+<fieldset class="form-fieldset">
+  <legend class="form-legend">Photos</legend>
+  <%= profile.input :profile_pic %>
+  <%= profile.input :cover_photo %>
+</fieldset>
+
+<fieldset class="form-fieldset">
+  <legend class="form-legend">General Info</legend>
+  <%= profile.association :religion %>
+  <%= profile.association :caste %>
+  <%= profile.input :education %>
+  <%= profile.input :qualification %>
+  <%= profile.association :profession %>
+</fieldset>
+
+<fieldset class="form-fieldset">
+  <legend class="form-legend">Contact</legend>
+  <%= profile.input :phone %>
+  <%= profile.input :phone2 %>
+  <%= profile.input :email %>
+  <%= profile.input :website %>
+  <%= profile.input :twitter %>
+  <%= profile.input :facebook %>
+  <%= profile.input :website %>
+  <%= profile.input :pincode %>
+</fieldset>
+
+<fieldset class="form-fieldset">
+  <legend class="form-legend">Finances</legend>
+  <%= profile.input :income %>
+  <%= profile.input :assets %>
+  <%= profile.input :liabilities %>
+</fieldset>
+
+<fieldset class="form-fieldset">
+  <legend class="form-legend">Civil Details</legend>
+  <%= profile.input :criminal_cases %>
+</fieldset>
+<% end %>

@@ -1,0 +1,404 @@
+AC,PC,District,Code
+Behat,Saharanpur,Saharanpur,UP
+Nakur,Kairana,Saharanpur,UP
+Saharanpur Nagar,Saharanpur,Saharanpur,UP
+Saharanpur,Saharanpur,Saharanpur,UP
+Deoband,Saharanpur,Saharanpur,UP
+Rampur Maniharan,Saharanpur,Saharanpur,UP
+Gangoh,Kairana,Saharanpur,UP
+Kairana,Kairana,Muzaffarnagar,UP
+Thana Bhawan,Kairana,Muzaffarnagar,UP
+Shamli,Kairana,Muzaffarnagar,UP
+Budhana,Muzaffarnagar,Muzaffarnagar,UP
+Charthawal,Muzaffarnagar,Muzaffarnagar,UP
+Purqazi,Bijnor,Muzaffarnagar,UP
+Muzaffar Nagar,Muzaffarnagar,Muzaffarnagar,UP
+Khatauli,Muzaffarnagar,Muzaffarnagar,UP
+Meerapur,Bijnor,Muzaffarnagar,UP
+Najibabad,Nagina,Bijnor,UP
+Nagina,Nagina,Bijnor,UP
+Barhapur,Moradabad,Bijnor,UP
+Dhampur,Nagina,Bijnor,UP
+Nehtaur,Nagina,Bijnor,UP
+Bijnor,Bijnor,Bijnor,UP
+Chandpur,Bijnor,Bijnor,UP
+Noorpur,Nagina,Bijnor,UP
+Kanth,Moradabad,Moradabad,UP
+Thakurdwara,Moradabad,Moradabad,UP
+Moradabad Rural,Moradabad,Moradabad,UP
+Moradabad Nagar,Moradabad,Moradabad,UP
+Kundarki,Sambhal,Moradabad,UP
+Bilari,Sambhal,Moradabad,UP
+Chandausi,Sambhal,Moradabad,UP
+Asmoli,Sambhal,Moradabad,UP
+Sambhal,Sambhal,Moradabad,UP
+Suar,Rampur,Rampur,UP
+Chamraua,Rampur,Rampur,UP
+Bilaspur,Rampur,Rampur,UP
+Rampur,Rampur,Rampur,UP
+Milak,Rampur,Rampur,UP
+Dhanaura,Amroha,Jyotiba Phule Nagar,UP
+Naugawan Sadat,Amroha,Jyotiba Phule Nagar,UP
+Amroha,Amroha,Jyotiba Phule Nagar,UP
+Hasanpur,Amroha,Jyotiba Phule Nagar,UP
+Siwalkhas,Baghpat,Meerut,UP
+Sardhana,Muzaffarnagar,Meerut,UP
+Hastinapur,Bijnor,Meerut,UP
+Kithore,Meerut,Meerut,UP
+Meerut Cantt.,Meerut,Meerut,UP
+Meerut,Meerut,Meerut,UP
+Meerut South,Meerut,Meerut,UP
+Chhaprauli,Baghpat,Baghpat,UP
+Baraut,Baghpat,Baghpat,UP
+Baghpat,Baghpat,Baghpat,UP
+Loni,Ghaziabad,Ghaziabad,UP
+Muradnagar,Ghaziabad,Ghaziabad,UP
+Sahibabad,Ghaziabad,Ghaziabad,UP
+Ghaziabad,Ghaziabad,Ghaziabad,UP
+Modi Nagar,Baghpat,Ghaziabad,UP
+Dholana,Ghaziabad,Ghaziabad,UP
+Hapur,Meerut,Ghaziabad,UP
+Garhmukteshwar,Amroha,Ghaziabad,UP
+Noida,Gautam Buddh Nagar,Gautam Buddha Nagar,UP
+Dadri,Gautam Buddh Nagar,Gautam Buddha Nagar,UP
+Jewar,Gautam Buddh Nagar,Gautam Buddha Nagar,UP
+Sikandrabad,Gautam Buddh Nagar,Bulandshahar,UP
+Bulandshahr,Bulandshahr,Bulandshahar,UP
+Syana,Bulandshahr,Bulandshahar,UP
+Anupshahr,Bulandshahr,Bulandshahar,UP
+Debai,Bulandshahr,Bulandshahar,UP
+Shikarpur,Bulandshahr,Bulandshahar,UP
+Khurja,Gautam Buddh Nagar,Bulandshahar,UP
+Khair,Aligarh,Aligarh,UP
+Barauli,Aligarh,Aligarh,UP
+Atrauli,Aligarh,Aligarh,UP
+Chharra,Hathras,Aligarh,UP
+Koil,Aligarh,Aligarh,UP
+Aligarh,Aligarh,Aligarh,UP
+Iglas,Hathras,Aligarh,UP
+Hathras,Hathras,Mahamaya Nagar,UP
+Sadabad,Hathras,Mahamaya Nagar,UP
+Sikandra Rao,Hathras,Mahamaya Nagar,UP
+Chhata,Mathura,Mathura,UP
+Mant,Mathura,Mathura,UP
+Goverdhan,Mathura,Mathura,UP
+Mathura,Mathura,Mathura,UP
+Baldev,Mathura,Mathura,UP
+Etmadpur,Agra,Agra,UP
+Agra Cantt.,Agra,Agra,UP
+Agra South,Agra,Agra,UP
+Agra North,Agra,Agra,UP
+Agra Rural,Fatehpur Sikri,Agra,UP
+Fatehpur Sikri,Fatehpur Sikri,Agra,UP
+Kheragarh,Fatehpur Sikri,Agra,UP
+Fatehabad,Fatehpur Sikri,Agra,UP
+Bah,Fatehpur Sikri,Agra,UP
+Tundla,Firozabad,Firozabad,UP
+Jasrana,Firozabad,Firozabad,UP
+Firozabad,Firozabad,Firozabad,UP
+Shikohabad,Firozabad,Firozabad,UP
+Sirsaganj,Firozabad,Firozabad,UP
+Kasganj,Etah,Etah,UP
+Amanpur,Etah,Etah,UP
+Patiyali,Etah,Etah,UP
+Aliganj,Farrukhabad,Etah,UP
+Etah,Etah,Etah,UP
+Marhara,Etah,Etah,UP
+Jalesar,Agra,Etah,UP
+Mainpuri,Mainpuri,Mainpuri,UP
+Bhongaon,Mainpuri,Mainpuri,UP
+Kishani,Mainpuri,Mainpuri,UP
+Karhal,Mainpuri,Mainpuri,UP
+Gunnaur,Badaun,Budaun,UP
+Bisauli,Badaun,Budaun,UP
+Sahaswan,Badaun,Budaun,UP
+Bilsi,Badaun,Budaun,UP
+Badaun,Badaun,Budaun,UP
+Shekhupur,Aonla,Budaun,UP
+Dataganj,Aonla,Budaun,UP
+Baheri,Pilibhit,Bareilly,UP
+Meerganj,Bareilly,Bareilly,UP
+Bhojipura,Bareilly,Bareilly,UP
+Nawabganj,Bareilly,Bareilly,UP
+Faridpur,Aonla,Bareilly,UP
+Bithari Chainpur,Aonla,Bareilly,UP
+Bareilly,Bareilly,Bareilly,UP
+Bareilly Cantt.,Bareilly,Bareilly,UP
+Aonla,Aonla,Bareilly,UP
+Pilibhit,Pilibhit,Pilibhit,UP
+Barkhera,Pilibhit,Pilibhit,UP
+Puranpur,Pilibhit,Pilibhit,UP
+Bisalpur,Pilibhit,Pilibhit,UP
+Katra,Shahjahanpur,Shahjahanpur,UP
+Jalalabad,Shahjahanpur,Shahjahanpur,UP
+Tilhar,Shahjahanpur,Shahjahanpur,UP
+Powayan,Shahjahanpur,Shahjahanpur,UP
+Shahjahanpur,Shahjahanpur,Shahjahanpur,UP
+Dadraul,Shahjahanpur,Shahjahanpur,UP
+Palia,Kheri,Kheri,UP
+Nighasan,Kheri,Kheri,UP
+Gola Gokrannath,Kheri,Kheri,UP
+Sri Nagar,Kheri,Kheri,UP
+Dhaurahra,Dhaurahra,Kheri,UP
+Lakhimpur,Kheri,Kheri,UP
+Kasta,Dhaurahra,Kheri,UP
+Mohammdi,Dhaurahra,Kheri,UP
+Maholi,Dhaurahra,Sitapur,UP
+Sitapur,Sitapur,Sitapur,UP
+Hargaon,Dhaurahra,Sitapur,UP
+Laharpur,Sitapur,Sitapur,UP
+Biswan,Sitapur,Sitapur,UP
+Sevata,Sitapur,Sitapur,UP
+Mahmoodabad,Sitapur,Sitapur,UP
+Sidhauli,Mohanlalganj,Sitapur,UP
+Misrikh,Misrikh,Sitapur,UP
+Sawaijpur,Hardoi,Hardoi,UP
+Shahabad,Hardoi,Hardoi,UP
+Hardoi,Hardoi,Hardoi,UP
+Gopamau,Hardoi,Hardoi,UP
+Sandi,Hardoi,Hardoi,UP
+Bilgram-Mallanwan,Misrikh,Hardoi,UP
+Balamau,Misrikh,Hardoi,UP
+Sandila,Misrikh,Hardoi,UP
+Bangermau,Unnao,Unnao,UP
+Safipur,Unnao,Unnao,UP
+Mohan,Unnao,Unnao,UP
+Unnao,Unnao,Unnao,UP
+Bhagwantnagar,Unnao,Unnao,UP
+Purwa,Unnao,Unnao,UP
+Malihabad,Mohanlalganj,Lucknow,UP
+Bakshi Kaa Talab,Mohanlalganj,Lucknow,UP
+Sarojini Nagar,Mohanlalganj,Lucknow,UP
+Lucknow West,Lucknow,Lucknow,UP
+Lucknow North,Lucknow,Lucknow,UP
+Lucknow East,Lucknow,Lucknow,UP
+Lucknow Central,Lucknow,Lucknow,UP
+175-Lucknow Cantt.,Lucknow,Lucknow,UP
+Mohanlalganj,Mohanlalganj,Lucknow,UP
+Bachhrawan,Rae Bareli,Rae Bareli,UP
+Tiloi,Amethi,Rae Bareli,UP
+Harchandpur,Rae Bareli,Rae Bareli,UP
+Rae Bareli,Rae Bareli,Rae Bareli,UP
+Salon,Amethi,Rae Bareli,UP
+Sareni,Rae Bareli,Rae Bareli,UP
+Unchahar,Rae Bareli,Rae Bareli,UP
+Jagdishpur,Amethi,Sultanpur,UP
+Gauriganj,Amethi,Sultanpur,UP
+Amethi,Amethi,Sultanpur,UP
+Isauli,Sultanpur,Sultanpur,UP
+Sultanpur,Sultanpur,Sultanpur,UP
+Sadar,Sultanpur,Sultanpur,UP
+Lambhua,Sultanpur,Sultanpur,UP
+Kadipur,Sultanpur,Sultanpur,UP
+Kaimganj,Farrukhabad,Farrukhabad,UP
+Amritpur,Farrukhabad,Farrukhabad,UP
+Farrukhabad,Farrukhabad,Farrukhabad,UP
+Bhojpur,Farrukhabad,Farrukhabad,UP
+Chhibramau,Kannauj,Kannauj,UP
+Tirwa,Kannauj,Kannauj,UP
+Kannauj,Kannauj,Kannauj,UP
+Jaswantnagar,Mainpuri,Etawah,UP
+Etawah,Etawah,Etawah,UP
+Bharthana,Etawah,Etawah,UP
+Bidhuna,Kannauj,Auraiya,UP
+Dibiyapur,Etawah,Auraiya,UP
+Auraiya,Etawah,Auraiya,UP
+Rasulabad,Kannauj,Kanpur Dehat,UP
+Akbarpur - Raniya,Akbarpur,Kanpur Dehat,UP
+Sikandra,Etawah,Kanpur Dehat,UP
+Bhognipur,Jalaun,Kanpur Dehat,UP
+Bilhaur,Misrikh,Kanpur Nagar,UP
+Bithoor,Akbarpur,Kanpur Nagar,UP
+Kalyanpur,Akbarpur,Kanpur Nagar,UP
+Govindnagar,Kanpur,Kanpur Nagar,UP
+Sishamau,Kanpur,Kanpur Nagar,UP
+Arya Nagar,Kanpur,Kanpur Nagar,UP
+Kidwai Nagar,Kanpur,Kanpur Nagar,UP
+Kanpur Cantt.,Kanpur,Kanpur Nagar,UP
+Maharajpur,Akbarpur,Kanpur Nagar,UP
+Ghatampur,Akbarpur,Kanpur Nagar,UP
+Madhaugarh,Jalaun,Jalaun,UP
+Kalpi,Jalaun,Jalaun,UP
+Orai,Jalaun,Jalaun,UP
+Babina,Jhansi,Jhansi,UP
+Jhansi Nagar,Jhansi,Jhansi,UP
+Mauranipur,Jhansi,Jhansi,UP
+Garautha,Jalaun,Jhansi,UP
+Lalitpur,Jhansi,Lalitpur,UP
+Mehroni,Jhansi,Lalitpur,UP
+Hamirpur,Hamirpur,Hamirpur,UP
+Rath,Hamirpur,Hamirpur,UP
+Mahoba,Hamirpur,Mahoba,UP
+Charkhari,Hamirpur,Mahoba,UP
+Tindwari,Hamirpur,Banda,UP
+Baberu,Banda,Banda,UP
+Naraini,Banda,Banda,UP
+Banda,Banda,Banda,UP
+Chitrakoot,Banda,Chitrakoot,UP
+Manikpur,Banda,Chitrakoot,UP
+Jahanabad,Fatehpur,Fatehpur,UP
+Bindki,Fatehpur,Fatehpur,UP
+Fatehpur,Fatehpur,Fatehpur,UP
+Ayah Shah,Fatehpur,Fatehpur,UP
+Husainganj,Fatehpur,Fatehpur,UP
+Khaga,Fatehpur,Fatehpur,UP
+Rampur Khas,Pratapgarh,Pratapgarh,UP
+Babaganj,Kaushambi,Pratapgarh,UP
+Kunda,Kaushambi,Pratapgarh,UP
+Vishwanathganj,Pratapgarh,Pratapgarh,UP
+Pratapgarh,Pratapgarh,Pratapgarh,UP
+Patti,Pratapgarh,Pratapgarh,UP
+Raniganj,Pratapgarh,Pratapgarh,UP
+Sirathu,Kaushambi,Kaushambi,UP
+Manjhanpur,Kaushambi,Kaushambi,UP
+Chail,Kaushambi,Kaushambi,UP
+Phaphamau,Phulpur,Allahabad,UP
+Soraon,Phulpur,Allahabad,UP
+Phulpur,Phulpur,Allahabad,UP
+Pratappur,Bhadohi,Allahabad,UP
+Handia,Bhadohi,Allahabad,UP
+Meja,Allahabad,Allahabad,UP
+Karachhana,Allahabad,Allahabad,UP
+Allahabad West,Phulpur,Allahabad,UP
+Allahabad North,Phulpur,Allahabad,UP
+Allahabad South,Allahabad,Allahabad,UP
+Bara,Allahabad,Allahabad,UP
+Koraon,Allahabad,Allahabad,UP
+Kursi,Bara Banki,Barabanki,UP
+Ram Nagar,Bara Banki,Barabanki,UP
+Barabanki,Bara Banki,Barabanki,UP
+Zaidpur,Bara Banki,Barabanki,UP
+Dariyabad,Faizabad,Barabanki,UP
+Rudauli,Faizabad,Barabanki,UP
+Haidergarh,Bara Banki,Barabanki,UP
+Milkipur,Faizabad,Faizabad,UP
+Bikapur,Faizabad,Faizabad,UP
+Ayodhya,Faizabad,Faizabad,UP
+Goshainganj,Ambedkar Nagar,Faizabad,UP
+Katehari,Ambedkar Nagar,Ambedkar Nagar,UP
+Tanda,Ambedkar Nagar,Ambedkar Nagar,UP
+Alapur,Sant Kabir Nagar,Ambedkar Nagar,UP
+Jalalpur,Ambedkar Nagar,Ambedkar Nagar,UP
+Akbarpur,Ambedkar Nagar,Ambedkar Nagar,UP
+Balha,Bahraich,Bahraich,UP
+Nanpara,Bahraich,Bahraich,UP
+Matera,Bahraich,Bahraich,UP
+Mahasi,Bahraich,Bahraich,UP
+Bahraich,Bahraich,Bahraich,UP
+Payagpur,Kaiserganj,Bahraich,UP
+Kaiserganj,Kaiserganj,Bahraich,UP
+Bhinga,Shrawasti,Shrawasti,UP
+Shrawasti,Shrawasti,Shrawasti,UP
+Tulsipur,Shrawasti,Balrampur,UP
+Gainsari,Shrawasti,Balrampur,UP
+Utraula,Gonda,Balrampur,UP
+Balrampur,Shrawasti,Balrampur,UP
+Mehnaun,Gonda,Gonda,UP
+Gonda,Gonda,Gonda,UP
+Katra Bazar,Kaiserganj,Gonda,UP
+Colonelganj,Kaiserganj,Gonda,UP
+Tarabganj,Kaiserganj,Gonda,UP
+Mankapur,Gonda,Gonda,UP
+Gaura,Gonda,Gonda,UP
+Shohratgarh,Domariyaganj,Siddharthnagar,UP
+Kapilvastu,Domariyaganj,Siddharthnagar,UP
+Bansi,Domariyaganj,Siddharthnagar,UP
+Itwa,Domariyaganj,Siddharthnagar,UP
+Doomariyaganj,Domariyaganj,Siddharthnagar,UP
+Harraiya,Basti,Basti,UP
+Kaptanganj,Basti,Basti,UP
+Rudhauli,Basti,Basti,UP
+Basti Sadar,Basti,Basti,UP
+Mahadewa,Basti,Basti,UP
+Menhdawal,Sant Kabir Nagar,S. Kabir Nagar,UP
+Khalilabad,Sant Kabir Nagar,S. Kabir Nagar,UP
+Dhanghata,Sant Kabir Nagar,S. Kabir Nagar,UP
+Pharenda,Maharajganj,Maharajganj,UP
+Nautanwa,Maharajganj,Maharajganj,UP
+Siswa,Maharajganj,Maharajganj,UP
+Maharajganj,Maharajganj,Maharajganj,UP
+Paniyara,Maharajganj,Maharajganj,UP
+Caimpiyarganj,Gorakhpur,Gorakhpur,UP
+Pipraich,Gorakhpur,Gorakhpur,UP
+Gorakhpur Urban,Gorakhpur,Gorakhpur,UP
+Gorakhpur Rural,Gorakhpur,Gorakhpur,UP
+Sahajanwa,Gorakhpur,Gorakhpur,UP
+Khajani,Sant Kabir Nagar,Gorakhpur,UP
+Chauri-Chaura,Bansgaon,Gorakhpur,UP
+Bansgaon,Bansgaon,Gorakhpur,UP
+Chillupar,Bansgaon,Gorakhpur,UP
+Khadda,Kushi Nagar,Kushinagar,UP
+Padrauna,Kushi Nagar,Kushinagar,UP
+Tamkuhi Raj,Deoria,Kushinagar,UP
+Fazilnagar,Deoria,Kushinagar,UP
+Kushinagar,Kushi Nagar,Kushinagar,UP
+Hata,Kushi Nagar,Kushinagar,UP
+Ramkola,Kushi Nagar,Kushinagar,UP
+Rudrapur,Bansgaon,Deoria,UP
+Deoria,Deoria,Deoria,UP
+Pathardeva,Deoria,Deoria,UP
+Rampur Karkhana,Deoria,Deoria,UP
+Bhatpar Rani,Salempur,Deoria,UP
+Salempur,Salempur,Deoria,UP
+Barhaj,Bansgaon,Deoria,UP
+Atrauliya,Lalganj,Azamgarh,UP
+Gopalpur,Azamgarh,Azamgarh,UP
+Sagri,Azamgarh,Azamgarh,UP
+Mubarakpur,Azamgarh,Azamgarh,UP
+Azamgarh,Azamgarh,Azamgarh,UP
+Nizamabad,Lalganj,Azamgarh,UP
+Phoolpur Pawai,Lalganj,Azamgarh,UP
+Didarganj,Lalganj,Azamgarh,UP
+Lalganj,Lalganj,Azamgarh,UP
+Mehnagar,Azamgarh,Azamgarh,UP
+Madhuban,Ghosi,Mau,UP
+Ghosi,Ghosi,Mau,UP
+Muhammadabad- Gohna,Ghosi,Mau,UP
+Mau,Ghosi,Mau,UP
+Belthara Road,Salempur,Ballia,UP
+Rasara,Ghosi,Ballia,UP
+Sikanderpur,Salempur,Ballia,UP
+Phephana,Ballia,Ballia,UP
+Ballia Nagar,Ballia,Ballia,UP
+Bansdih,Salempur,Ballia,UP
+Bairia,Ballia,Ballia,UP
+Badlapur,Jaunpur,Jaunpur,UP
+Shahganj,Jaunpur,Jaunpur,UP
+Jaunpur,Jaunpur,Jaunpur,UP
+Malhani,Jaunpur,Jaunpur,UP
+Mungra Badshahpur,Jaunpur,Jaunpur,UP
+Machhlishahr,Machhlishahr,Jaunpur,UP
+Mariyahu,Machhlishahr,Jaunpur,UP
+Zafrabad,Machhlishahr,Jaunpur,UP
+Kerakat,Machhlishahr,Jaunpur,UP
+Jakhanian,Ghazipur,Ghazipur,UP
+Saidpur,Ghazipur,Ghazipur,UP
+Ghazipur,Ghazipur,Ghazipur,UP
+Jangipur,Ghazipur,Ghazipur,UP
+Zahoorabad,Ballia,Ghazipur,UP
+Mohammadabad,Ballia,Ghazipur,UP
+Zamania,Ghazipur,Ghazipur,UP
+Mughalsarai,Chandauli,Chandauli,UP
+Sakaldiha,Chandauli,Chandauli,UP
+Saiyadraja,Chandauli,Chandauli,UP
+Chakia,Robertsganj,Chandauli,UP
+Pindra,Machhlishahr,Varanasi,UP
+Ajagara,Chandauli,Varanasi,UP
+Shivpur,Chandauli,Varanasi,UP
+Rohaniya,Varanasi,Varanasi,UP
+Varanasi North,Varanasi,Varanasi,UP
+Varanasi South,Varanasi,Varanasi,UP
+Varanasi Cantt.,Varanasi,Varanasi,UP
+Sevapuri,Varanasi,Varanasi,UP
+Bhadohi,Bhadohi,S.R.Nagar(Bhadohi),UP
+Gyanpur,Bhadohi,S.R.Nagar(Bhadohi),UP
+Aurai,Bhadohi,S.R.Nagar(Bhadohi),UP
+Chhanbey,Mirzapur,Mirzapur,UP
+Mirzapur,Mirzapur,Mirzapur,UP
+Majhawan,Mirzapur,Mirzapur,UP
+Chunar,Mirzapur,Mirzapur,UP
+Marihan,Mirzapur,Mirzapur,UP
+Ghorawal,Robertsganj,Sonbhadra,UP
+Robertsganj,Robertsganj,Sonbhadra,UP
+Obra,Robertsganj,Sonbhadra,UP
+Duddhi,Robertsganj,Sonbhadra,UP

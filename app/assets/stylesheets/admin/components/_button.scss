@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  border: solid 1px;
+  line-height: 16px;
+  padding:  0 4px;
+  opacity: 0.6;
+  color: rgba($black, 0.5);
+  font-size: 11px;
+  text-transform: uppercase;
+  background: $white;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: $primary-color;
+    background: rgba($primary-color, 0.2);
+  }
+
+  &-primary {
+    color: $primary-color;
+    font-weight: 700;
+    border-width: 2px;
+  }
+}

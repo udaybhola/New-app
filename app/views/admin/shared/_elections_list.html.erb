@@ -1,0 +1,16 @@
+<div class="box">
+  <header class="box-header">
+    <h2 class="box-title">Elections</h2>
+    <%= link_to '<i class="fas fa-plus-circle"></i>'.html_safe, new_admin_election_path, class: 'box-action' %>
+  </header>
+
+  <div class="box-body box-body-scroll">
+    <ul class="box-list">
+      <% elections.each do |election| %>
+      <li class="box-list-element text-capitalize">
+        <%= link_to election.title, admin_election_path(election) %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

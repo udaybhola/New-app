@@ -1,0 +1,11 @@
+<div class="size-medium position-center">
+
+  <h2 class="subhead">Upload CSV for <%= @election.title %></h2>
+  
+  <div class="box box-medium box-center">
+    <%= simple_form_for [:admin, @election, @bulk_file], url: admin_election_bulk_upload_index_path(@election.id) do |f| %>
+      <%= f.input :file %>
+      <%= f.submit 'Upload' %>
+    <% end %>  
+  </div>
+</div>

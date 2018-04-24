@@ -1,0 +1,100 @@
+{
+  "question": "From the image below, tell us who has contributed to the BJP’s long Gujarat stint?",
+  "type": "poll",
+  "slug": "from-the-image-below-tell-us-who-has-contributed-to-the-bjp-s-long-gujarat-stint",
+  "category": {
+    "slug": "environmental-issues",
+    "display_name": "Environmental Issues"
+  },
+  "poll_options": [
+    {
+      "id": 1,
+      "answer": "Disintegration of KHAM (Kshatriya, Harijan, Adivasi, Muslim) alliance",
+      "vote_count": 864
+    },
+    {
+      "id": 2,
+      "answer": "Patidars, shifting allegiance from Congress to BJP",
+      "vote_count": 5359
+    },
+    {
+      "id": 3,
+      "answer": "Consolidation of Hindu votes after Ram Janm Bhoomie",
+      "vote_count": 2823
+    },
+    {
+      "id": 4,
+      "answer": "Further polarisation after Godhra riots",
+      "vote_count": 2123
+    }
+  ],
+  "created_by": {
+    "name": "John Appleseed",
+    "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1494594497/qjuv9ci4zdfoj1vkctfh.jpg"
+  }, 
+  "media": [
+       {
+         "type": "image",
+         "url": "http://res.cloudinary.com/starlove-dev/image/upload/v1494594497/qjuv9ci4zdfoj1vkctfh.jpg"
+       }
+  ],
+  "comments": {
+    "best": [
+      {
+        "author": { 
+          "name": "Manpreet Singh Badal",
+          "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1485935041/x3mzmw6glrpbenlcx3fq.jpg"
+        },
+        "comment": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party.",
+        "comments": {
+          "offset": 5,
+          "limit": 100,
+          "total": 56,
+          "data": [
+            {
+              "author": { 
+                "name": "Manpreet Singh Badal",
+                "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1485935041/x3mzmw6glrpbenlcx3fq.jpg"
+              },
+              "comment": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party.",
+              "counts": {
+                "likes_count": 0
+              } 
+            }
+          ]
+        },
+        "counts": {
+          "likes_count": 0,
+          "comments_count": 0
+        }
+      }
+    ],
+    "newest": [
+      {
+        "author": { 
+          "name": "Manpreet Singh Badal",
+          "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1485935041/x3mzmw6glrpbenlcx3fq.jpg"
+        },
+        "comment": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party.",
+        "user_type": "Leader",
+        "likes_count": 0,
+        "reply_count": 0
+      }
+    ],
+    "oldest": [
+      {
+        "author": { 
+          "name": "Manpreet Singh Badal",
+          "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1485935041/x3mzmw6glrpbenlcx3fq.jpg"
+        },
+        "comment": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party.",
+        "user_type": "Leader",
+        "likes_count": 0,
+        "reply_count": 0
+      }
+    ]
+  },
+  "likes_count": 7,
+  "reply_count": 2 ,
+  "created_time": "4:00 PM, 20 January, 2017"
+}

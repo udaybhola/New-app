@@ -1,0 +1,31 @@
+{
+   "id":"989bcaee-50fa-44ae-a9be-e6e6f9580cd9",
+   "party_info":{
+      "party_name":"Bharatiya Janata Party",
+      "constituency_name":"Bengaluru South Constituency"
+   },
+   "info":{
+      "name":"neta1",
+      "age":27,
+      "gender":"",
+      "religion":"Hindu",
+      "caste":"Harijan",
+      "education":"12th Pass",
+      "profession":"Public",
+      "income":null,
+      "assets":null,
+      "liabilities":null,
+      "criminal_cases":null,
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "constituency": "Bengaluru South",
+      "pincode": "560001"
+   },
+   "contact_info":{
+      "phone":null,
+      "email":null,
+      "website":null,
+      "facebook":null,
+      "twitter":null
+   }
+}

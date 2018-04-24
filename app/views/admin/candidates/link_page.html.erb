@@ -1,0 +1,23 @@
+<div class="size-medium position-center">
+
+  <h2 class="subhead">Link Candidate Phone Number For Login</h2>
+  <div class="box box-medium box-center">
+  <% unless @candidate.logged_in? %>
+    Candidate has not yet logged in, you can change the phone number: 
+    <%= simple_form_for @candidate, url: link_admin_election_candidate_path, method: :post do |f| %>
+      <%= f.error_notification %>
+      <%= f.input :link_phone_number %>
+      <%= f.input :should_link_with_phone_number %>
+      <br />
+      Note: Candidate won't be able to login until linked, he should use the provided phone number to login, Make sure that phone number is 10 digit length, don't append 0 or any other characters to the phone number
+    <%= f.submit %>
+    <% end %>
+  <% else %>
+    Candidate had logged in already to the Neta system with below phone number  <br/>
+    Phone Number: <%= @candidate.link_phone_number %>
+  <% end %>
+
+  
+</div>
+
+</div>

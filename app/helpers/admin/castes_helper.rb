@@ -1,0 +1,2 @@
+module Admin::CastesHelper
+end

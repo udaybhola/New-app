@@ -1,0 +1,35 @@
+.float {
+  &-left {
+    float: left;
+  }
+
+  &-right {
+    float: right;
+  }
+}
+
+.display {
+  &-inline {
+    display: inline;
+  }
+
+  &-inline-block {
+    display: inline-block;
+  }
+
+  &-block {
+    display: block;
+  }
+}
+
+.size {
+  &-medium {
+    width: 50vw;
+  }
+}
+
+.position {
+  &-center {
+    margin: 0 auto;
+  }
+}

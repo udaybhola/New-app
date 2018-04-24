@@ -1,0 +1,36 @@
+.dashboard {
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 90px;
+  grid-gap: 10px;
+  padding: 10px;
+
+  &-header {
+    padding-top: 12px;
+    line-height: 24px;
+    grid-column: 1 / -1;
+  }
+
+  &-parties {
+    grid-row: 2 / span 2;
+  }
+
+  &-full {
+    grid-column: 1 / -1;
+  }
+
+  &-large {
+    grid-column: 1 / span 3;
+  }
+
+  // &-constituencies {
+  //   grid-row: 3;
+  // }
+}

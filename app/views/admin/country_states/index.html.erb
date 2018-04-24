@@ -1,0 +1,50 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Add State", new_admin_country_state_path, class: "header-button" %>
+<% end %>
+
+<div class="main">
+<h2 class="subhead">States</h2>
+
+<table class="box table">
+  <thead class="table-header">
+    <tr>
+      <th>Name</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody class="table-body">
+  <% @country_states.each do |country_state| %>
+    <% map = country_state.map.present? %>
+    <tr>
+      <td class="table-row-header">
+        <%= country_state.name %> <br/>
+        <%= link_to 'Parliamentary Constituencies', admin_country_state_constituencies_path(country_state, kind: 'parliamentary'), class: "link-goto"  %>
+        <%= link_to 'Assembly Constituencies', admin_country_state_constituencies_path(country_state, kind: 'assembly'), class: "link-goto"  %>
+      </td>
+      <td class="table-row-links">
+      </td>
+      <td>
+        <% if map %>
+        <span class="label label-green">
+          <i class="fas fa-check-circle"></i>
+          map
+        </span>
+        <% else %>
+        <span class="label label-red">
+          <i class="fas fa-exclamation-circle"></i>
+          map
+        </span>
+        <% end %>
+      </td>
+      <td class="table-row-actions">
+        <%= button_to 'remove map', admin_country_state_unlink_map_path(country_state), method: :delete, class: "button" if map %>
+        <%= link_to 'link map', admin_country_state_link_map_path(country_state), class: "button" unless map %>
+        <%= link_to 'edit', edit_admin_country_state_path(country_state), class: "button" %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+</div>

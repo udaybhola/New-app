@@ -1,0 +1,56 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Add Constituency", new_admin_country_state_constituency_path(@country_state), class: "header-button" %>
+<% end %>
+
+<div class="dashboard">
+  <div class="dashboard-header">
+    <%= link_to 'edit', edit_admin_country_state_path(@country_state), class: "button" %>
+    <h2 class="text-capitalize"><%= @country_state.name %> [<%= @country_state.has_launched? ? "Launched": "Not Launched" %>]</h2>
+    <%#= render partial: 'admin/shared/grouped_constituency_filter', locals: {
+      country_states: false
+    } %>
+  </div>
+
+  <%= render partial: 'admin/shared/elections_list', locals: {
+    elections: @elections
+  } %>
+
+  <%= render partial: 'admin/shared/constituencies_list', locals: {
+    constituencies: @parliamentary_constituencies,
+    title: 'Parliamentary Constituencies'
+  } %>
+
+  <%= render partial: 'admin/shared/constituencies_list', locals: {
+    constituencies: @assembly_constituencies,
+    title: 'Assembly Constituencies'
+  } %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @admin_polls,
+    title: 'Admin Polls',
+    create: true,
+    type: 'poll'
+  } %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @admin_issues,
+    title: 'Admin Issues',
+    create: true,
+    type: 'issue'
+  } %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @user_polls,
+    title: 'Reported Polls',
+    create: false,
+    type: 'poll'
+  } %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @user_issues,
+    title: 'Reported Issues',
+    create: false,
+    type: 'issue'
+  } %>
+
+</div>

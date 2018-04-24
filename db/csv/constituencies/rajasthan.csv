@@ -1,0 +1,201 @@
+AC,PC,District,Code
+Sadulshahar,Ganganagar,Ganganagar,RJ
+Ganganagar,Ganganagar,Ganganagar,RJ
+Karanpur,Ganganagar,Ganganagar,RJ
+Suratgarh,Ganganagar,Ganganagar,RJ
+Raisinghnagar,Ganganagar,Ganganagar,RJ
+Anupgarh,Bikaner,Ganganagar,RJ
+Sangaria,Ganganagar,Hanumangarh,RJ
+Hanumangarh,Ganganagar,Hanumangarh,RJ
+Pilibanga,Ganganagar,Hanumangarh,RJ
+Nohar,Churu,Hanumangarh,RJ
+Bhadra,Churu,Hanumangarh,RJ
+Khajuwala,Bikaner,Bikaner,RJ
+Bikaner West,Bikaner,Bikaner,RJ
+Bikaner East,Bikaner,Bikaner,RJ
+Kolayat,Bikaner,Bikaner,RJ
+Lunkaransar,Bikaner,Bikaner,RJ
+Dungargarh,Bikaner,Bikaner,RJ
+Nokha,Bikaner,Bikaner,RJ
+Sadulpur,Churu,Churu,RJ
+Taranagar,Churu,Churu,RJ
+Sardarshahar,Churu,Churu,RJ
+Churu,Churu,Churu,RJ
+Ratangarh,Churu,Churu,RJ
+Sujangarh,Churu,Churu,RJ
+Pilani,Jhunjhunu,Jhunjhunun,RJ
+Surajgarh,Jhunjhunu,Jhunjhunun,RJ
+Jhunjhunu,Jhunjhunu,Jhunjhunun,RJ
+Mandawa,Jhunjhunu,Jhunjhunun,RJ
+Nawalgarh,Jhunjhunu,Jhunjhunun,RJ
+Udaipurwati,Jhunjhunu,Jhunjhunun,RJ
+Khetri,Jhunjhunu,Jhunjhunun,RJ
+Fatehpur,Jhunjhunu,Sikar,RJ
+Lachmangarh,Sikar,Sikar,RJ
+Dhod,Sikar,Sikar,RJ
+Sikar,Sikar,Sikar,RJ
+Dantaramgarh,Sikar,Sikar,RJ
+Khandela,Sikar,Sikar,RJ
+Neem Ka Thana,Sikar,Sikar,RJ
+Srimadhopur,Sikar,Sikar,RJ
+Kotputli,Jaipur Rural,Jaipur,RJ
+Viratnagar,Jaipur Rural,Jaipur,RJ
+Shahpura,Jaipur Rural,Jaipur,RJ
+Chomu,Sikar,Jaipur,RJ
+Phulera,Jaipur Rural,Jaipur,RJ
+Dudu,Ajmer,Jaipur,RJ
+Jhotwara,Jaipur Rural,Jaipur,RJ
+Amber,Jaipur Rural,Jaipur,RJ
+Jamwa Ramgarh,Jaipur Rural,Jaipur,RJ
+Hawamahal,Jaipur,Jaipur,RJ
+Vidhyadhar Nagar,Jaipur,Jaipur,RJ
+Civil Lines,Jaipur,Jaipur,RJ
+Kishanpole,Jaipur,Jaipur,RJ
+Adarsh Nagar,Jaipur,Jaipur,RJ
+Malviya Nagar,Jaipur,Jaipur,RJ
+Sanganer,Jaipur,Jaipur,RJ
+Bagru,Jaipur,Jaipur,RJ
+Bassi,Dausa,Jaipur,RJ
+Chaksu,Dausa,Jaipur,RJ
+Tijara,Alwar,Alwar,RJ
+Kishangarh Bas,Alwar,Alwar,RJ
+Mundawar,Alwar,Alwar,RJ
+Behror,Alwar,Alwar,RJ
+Bansur,Jaipur Rural,Alwar,RJ
+Thanagazi,Dausa,Alwar,RJ
+Alwar Rural,Alwar,Alwar,RJ
+Alwar Urban,Alwar,Alwar,RJ
+Ramgarh,Alwar,Alwar,RJ
+Rajgarh-Laxmangarh,Alwar,Alwar,RJ
+Kathumar,Bharatpur,Alwar,RJ
+Kaman,Bharatpur,Bharatpur,RJ
+Nagar,Bharatpur,Bharatpur,RJ
+Deeg - Kumher,Bharatpur,Bharatpur,RJ
+Bharatpur,Bharatpur,Bharatpur,RJ
+Nadbai,Bharatpur,Bharatpur,RJ
+Weir,Bharatpur,Bharatpur,RJ
+Bayana,Bharatpur,Bharatpur,RJ
+Baseri,Karauli-Dholpur,Dhaulpur,RJ
+Bari,Karauli-Dholpur,Dhaulpur,RJ
+Dholpur,Karauli-Dholpur,Dhaulpur,RJ
+Rajakhera,Karauli-Dholpur,Dhaulpur,RJ
+Todabhim,Karauli-Dholpur,Karauli,RJ
+Hindaun,Karauli-Dholpur,Karauli,RJ
+Karauli,Karauli-Dholpur,Karauli,RJ
+Sapotra,Karauli-Dholpur,Karauli,RJ
+Bandikui,Dausa,Dausa,RJ
+Mahuwa,Dausa,Dausa,RJ
+Sikrai,Dausa,Dausa,RJ
+Dausa,Dausa,Dausa,RJ
+Lalsot,Dausa,Dausa,RJ
+Gangapur,Tonk-Sawai Madhopur,Sawai Madhopur,RJ
+Bamanwas,Tonk-Sawai Madhopur,Sawai Madhopur,RJ
+Sawai Madhopur,Tonk-Sawai Madhopur,Sawai Madhopur,RJ
+Khandar,Tonk-Sawai Madhopur,Sawai Madhopur,RJ
+Malpura,Tonk-Sawai Madhopur,Tonk,RJ
+Niwai,Tonk-Sawai Madhopur,Tonk,RJ
+Tonk,Tonk-Sawai Madhopur,Tonk,RJ
+Deoli-Uniara,Tonk-Sawai Madhopur,Tonk,RJ
+Kishangarh,Ajmer,Ajmer,RJ
+Pushkar,Ajmer,Ajmer,RJ
+Ajmer North,Ajmer,Ajmer,RJ
+Ajmer South,Ajmer,Ajmer,RJ
+Nasirabad,Ajmer,Ajmer,RJ
+Beawar,Rajsamand,Ajmer,RJ
+Masuda,Ajmer,Ajmer,RJ
+Kekri,Ajmer,Ajmer,RJ
+Ladnun,Nagaur,Nagaur,RJ
+Deedwana,Nagaur,Nagaur,RJ
+Jayal,Nagaur,Nagaur,RJ
+Nagaur,Nagaur,Nagaur,RJ
+Khinvsar,Nagaur,Nagaur,RJ
+Merta,Rajsamand,Nagaur,RJ
+Degana,Rajsamand,Nagaur,RJ
+Makrana,Nagaur,Nagaur,RJ
+Parbatsar,Nagaur,Nagaur,RJ
+Nawan,Nagaur,Nagaur,RJ
+Jaitaran,Rajsamand,Pali,RJ
+Sojat,Pali,Pali,RJ
+Pali,Pali,Pali,RJ
+Marwar Junciton,Pali,Pali,RJ
+Bali,Pali,Pali,RJ
+Sumerpur,Pali,Pali,RJ
+Phalodi,Jodhpur,Jodhpur,RJ
+Lohawat,Jodhpur,Jodhpur,RJ
+Shergarh,Jodhpur,Jodhpur,RJ
+Osian,Pali,Jodhpur,RJ
+Bhopalgarh,Pali,Jodhpur,RJ
+Sardarpura,Jodhpur,Jodhpur,RJ
+Jodhpur,Jodhpur,Jodhpur,RJ
+Soorsagar,Jodhpur,Jodhpur,RJ
+Luni,Jodhpur,Jodhpur,RJ
+Bilara,Pali,Jodhpur,RJ
+Jaisalmer,Barmer,Jaisalmer,RJ
+Pokaran,Jodhpur,Jaisalmer,RJ
+Sheo,Barmer,Barmer,RJ
+Barmer,Barmer,Barmer,RJ
+Baytoo,Barmer,Barmer,RJ
+Pachpadra,Barmer,Barmer,RJ
+Siwana,Barmer,Barmer,RJ
+Gudamalani,Barmer,Barmer,RJ
+Chohtan,Barmer,Barmer,RJ
+Ahore,Jalore,Jalor,RJ
+Jalore,Jalore,Jalor,RJ
+Bhinmal,Jalore,Jalor,RJ
+Sanchore,Jalore,Jalor,RJ
+Raniwara,Jalore,Jalor,RJ
+Sirohi,Jalore,Sirohi,RJ
+Pindwara-Abu,Jalore,Sirohi,RJ
+Reodar,Jalore,Sirohi,RJ
+Gogunda,Udaipur,Udaipur,RJ
+Jhadol,Udaipur,Udaipur,RJ
+Kherwara,Udaipur,Udaipur,RJ
+Udaipur Rural,Udaipur,Udaipur,RJ
+Udaipur,Udaipur,Udaipur,RJ
+Mavli,Chittorgarh,Udaipur,RJ
+Vallabnagar,Chittorgarh,Udaipur,RJ
+Salumber,Udaipur,Udaipur,RJ
+Dhariawad,Udaipur,Udaipur,RJ
+Dungarpur,Banswara,Dungarpur,RJ
+Aspur,Udaipur,Dungarpur,RJ
+Sagwara,Banswara,Dungarpur,RJ
+Chorasi,Banswara,Dungarpur,RJ
+Ghatol,Banswara,Banswara,RJ
+Garhi,Banswara,Banswara,RJ
+Banswara,Banswara,Banswara,RJ
+Bagidora,Banswara,Banswara,RJ
+Kushalgarh,Banswara,Banswara,RJ
+Kapasan,Chittorgarh,Chittaurgarh,RJ
+Begun,Chittorgarh,Chittaurgarh,RJ
+Chittorgarh,Chittorgarh,Chittaurgarh,RJ
+Nimbahera,Chittorgarh,Chittaurgarh,RJ
+Bari Sadri,Chittorgarh,Chittaurgarh,RJ
+Pratapgarh,Chittorgarh,Chittaurgarh,RJ
+Bhim,Rajsamand,Rajsamand,RJ
+Kumbhalgarh,Rajsamand,Rajsamand,RJ
+Rajsamand,Rajsamand,Rajsamand,RJ
+Nathdwara,Rajsamand,Rajsamand,RJ
+Asind,Bhilwara,Bhilwara,RJ
+Mandal,Bhilwara,Bhilwara,RJ
+Sahara,Bhilwara,Bhilwara,RJ
+Bhilwara,Bhilwara,Bhilwara,RJ
+Shahpura,Bhilwara,Bhilwara,RJ
+Jahazpur,Bhilwara,Bhilwara,RJ
+Mandalgarh,Bhilwara,Bhilwara,RJ
+Hindoli,Bhilwara,Bundi,RJ
+Keshoraipatan,Kota,Bundi,RJ
+Bundi,Kota,Bundi,RJ
+Pipalda,Kota,Kota,RJ
+Sangod,Kota,Kota,RJ
+Kota North,Kota,Kota,RJ
+Kota South,Kota,Kota,RJ
+Ladpura,Kota,Kota,RJ
+Ramganj Mandi,Kota,Kota,RJ
+Anta,Jhalawar-Baran,Baran,RJ
+Kishanganj,Jhalawar-Baran,Baran,RJ
+Baran-Atru,Jhalawar-Baran,Baran,RJ
+Chhabra,Jhalawar-Baran,Baran,RJ
+Dag,Jhalawar-Baran,Jhalawar,RJ
+Jhalrapatan,Jhalawar-Baran,Jhalawar,RJ
+Khanpur,Jhalawar-Baran,Jhalawar,RJ
+Manohar Thana,Jhalawar-Baran,Jhalawar,RJ

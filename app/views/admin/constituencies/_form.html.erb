@@ -1,0 +1,5 @@
+<%= f.input :name %>
+<%= f.input :kind, collection: ['parliamentary', 'assembly'] %>
+<%= f.association :country_state, label: 'State' %>
+
+<%= f.submit %>

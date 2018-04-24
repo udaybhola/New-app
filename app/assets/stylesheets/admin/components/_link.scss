@@ -1,0 +1,21 @@
+.link {
+  &-goto {
+    border: none;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    padding: 0 9px 0 4px;
+    border-radius: 2px 9px 9px 2px;
+    background: rgba($black, 0.06);
+
+    &:hover {
+      background: rgba($primary-color, 0.3);
+    }
+
+    &::after {
+      content:  "\2192";
+      padding-left: 4px;
+    }
+  }
+}

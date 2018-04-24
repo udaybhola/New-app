@@ -1,0 +1,26 @@
+<div class="search-bar">
+<%= form_tag admin_path, method: 'get', class: 'search-filters' do %>
+  <% if country_states %>
+  <div class="form-field select">
+  <%= select_tag :country_state, 
+              options_from_collection_for_select(:country_states, "code", "name", @country_state.try(:code)),
+              include_blank: 'National' %>
+  </div>
+  <% end %>
+
+  <% if @country_state %>
+    <div class="form-field select">
+    <%= select_tag :constituency,
+                grouped_options_for_select({
+                  'Parliamentary': @parliamentary_constituencies.map{|t| [t.name.capitalize, t.slug]},
+                  'Assembly': @assembly_constituencies.map{|t| [t.name.capitalize, t.slug]}
+                }, @constituency.try(:slug)),
+                include_blank: '--select constituency--'
+
+    %>
+    </div>
+  <% end %>
+
+  <%#= submit_tag 'Apply Filters' %>
+<% end %>
+</div>

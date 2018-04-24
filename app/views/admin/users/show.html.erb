@@ -1,0 +1,64 @@
+Profile
+<%= image_tag @user.profile.profile_pic.icon.url if (@user.profile && !@user.profile.profile_pic.blank?) %>
+
+
+<br/>
+Name : <%= @user.profile.name %>
+Score: <%= @user.total_score %>
+Constituency: <%= @user.constituency.name %>
+
+<br/>
+Info
+
+<br/>
+Age : <%= @user.profile.age %>
+Education: <%= @user.profile.education %>
+Gender: <%= @user.profile.gender %>
+Profession: <%= @user.profile.profession.name if @user.profile.profession %> 
+
+<br/>
+Contact Info
+
+<br/>
+Website: <%= @user.profile.website %>
+Facebook: <%= @user.profile.facebook %>
+Twitter: <%= @user.profile.twitter %>
+
+<br />
+Issues & Polls
+<br/>
+
+<table class="box table">
+  <thead class="table-header">
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Created On</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody class="table-body">
+  <% @user.posts.order("created_at desc").each_with_index do |post, index| %>
+    <tr>
+      <td><%= index+1 %></td>
+      <td class="table-row-header">
+        <span class="label"><%= post.type.upcase %></span>
+        <%= post.name %>
+      </td>
+      <td class="table-row-header">
+        <%= post.created_at.in_time_zone(TZInfo::Timezone.get('Asia/Kolkata'))  %>
+      </td>
+      <td>
+        <% if post.show_on_dashboard %>
+        <span class="label label-green">dashboard</span>
+        <% end %>
+      </td>
+      <td class="table-row-actions">
+        <%= link_to 'edit', "/admin/#{post.type.pluralize.downcase}/#{post.id}/edit", class: "button" if post.is_admin? %>
+        <%= link_to 'view', "/admin/#{post.type.pluralize.downcase}/#{post.id}?country_state=#{@country_state.try(:code)}&constituency=#{@constituency.try(:slug)}", class: "button" %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

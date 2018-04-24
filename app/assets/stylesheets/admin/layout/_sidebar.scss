@@ -1,0 +1,16 @@
+.sidebar {
+  display: block;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  overflow: auto;
+
+  border-right: solid 1px $gray-xxlight;
+  background: $white;
+
+  .form {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,29 @@
+<div class="main">
+
+<div class="box dashboard-large">
+  <div class="box-header">
+    <h2 class="box-title">Settings</h2>
+  </div>
+
+  <table class="box table">
+    <thead class="table-header">
+      <tr>
+        <th>Key</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody class="table-body">
+    <% @settings.each do |setting| %>
+      <tr>
+        <td class="table-row-header">
+          <%= setting.key %>
+        </td>
+        <td class="table-row-actions">
+          <%= link_to 'edit', edit_admin_mobile_app_setting_path(setting), class: "button" %>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+  </div>
+</div>

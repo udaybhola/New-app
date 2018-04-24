@@ -1,0 +1,49 @@
+<%= f.input :region_type, input_html: { value: @region_type }, as: :hidden %>
+<%= f.input :region_id, input_html:  {value: @region_id}, as: :hidden %>
+
+<%= f.input :show_on_dashboard %>
+
+<% if f.object.national_level? %>
+  <%= f.input :poll_options_as_image %>
+<% end %>
+
+<%= f.input :question %>
+
+<%= f.simple_fields_for :poll_options, @poll.poll_options.sort_by(&:position) do |option| %>
+  <%= option.input :answer %>
+  <%= option.input :position, as: :hidden, input_html: { value: option.index } %>
+  <% if f.object.national_level? %>
+    <% if option.object.image_url %>
+      <%= cl_image_tag option.object.image_url, height: 150, crop: :scale %>
+      <%= option.input :image, as: :file %>
+    <% else %>
+      <%= option.input :image, as: :file %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<%= f.simple_fields_for :attachments, Attachment.new do |images_form| %>
+  <div>
+    <%= images_form.label :media %>
+    <%= images_form.file_field :media, multiple: true, name: "poll[attachments_attributes][][media]" %>
+  </div>
+<% end %>
+
+<% @poll.attachments.each do |attachment| %>
+  <% if attachment.media_url %>
+    <%= cl_image_tag attachment.media_url, height: 150, crop: :scale %>
+    <%  attachments_delete_params =
+        {
+        poll:
+          {              
+            attachments_attributes: { id: attachment.id, _destroy: true }
+          }
+        }
+    %>
+
+    <%= link_to "Delete", admin_poll_path(@poll.id, attachments_delete_params), method: :patch, data: { confirm: 'Are you sure?' } %>
+
+  <% end %>
+<% end %>
+
+<%= f.submit %>

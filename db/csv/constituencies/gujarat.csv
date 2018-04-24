@@ -1,0 +1,183 @@
+AC,PC,District,Code
+Abdasa,Kachchh,Kachchh,GJ
+Mandvi,Kachchh,Kachchh,GJ
+Bhuj,Kachchh,Kachchh,GJ
+Anjar,Kachchh,Kachchh,GJ
+Gandhidham,Kachchh,Kachchh,GJ
+Rapar,Kachchh,Kachchh,GJ
+Vav,Banaskantha,Banas Kantha,GJ
+Tharad,Banaskantha,Banas Kantha,GJ
+Dhanera,Banaskantha,Banas Kantha,GJ
+Danta,Banaskantha,Banas Kantha,GJ
+Vadgam,Patan,Banas Kantha,GJ
+Palanpur,Banaskantha,Banas Kantha,GJ
+Deesa,Banaskantha,Banas Kantha,GJ
+Deodar,Banaskantha,Banas Kantha,GJ
+Kankrej,Patan,Banas Kantha,GJ
+Radhanpur,Patan,Patan,GJ
+Chanasma,Patan,Patan,GJ
+Patan,Patan,Patan,GJ
+Sidhpur,Patan,Patan,GJ
+Kheralu,Patan,Mahesana,GJ
+Unjha,Mahesana,Mahesana,GJ
+Visnagar,Mahesana,Mahesana,GJ
+Becharaji,Mahesana,Mahesana,GJ
+Kadi,Mahesana,Mahesana,GJ
+Mahesana,Mahesana,Mahesana,GJ
+Vijapur,Mahesana,Mahesana,GJ
+Himatnagar,Sabarkantha,Sabar Kantha,GJ
+Idar,Sabarkantha,Sabar Kantha,GJ
+Khedbrahma,Sabarkantha,Sabar Kantha,GJ
+Bhiloda,Sabarkantha,Sabar Kantha,GJ
+Modasa,Sabarkantha,Sabar Kantha,GJ
+Bayad,Sabarkantha,Sabar Kantha,GJ
+Prantij,Sabarkantha,Sabar Kantha,GJ
+Dehgam,Ahmedabad East,Gandhinagar,GJ
+Gandhinagar South,Ahmedabad East,Gandhinagar,GJ
+Gandhinagar North,Gandhinagar,Gandhinagar,GJ
+Mansa,Mahesana,Gandhinagar,GJ
+Kalol,Gandhinagar,Gandhinagar,GJ
+Viramgam,Surendranagar,Ahmadabad,GJ
+Sanand,Gandhinagar,Ahmadabad,GJ
+Ghatlodia,Gandhinagar,Ahmadabad,GJ
+Vejalpur,Gandhinagar,Ahmadabad,GJ
+Vatva,Ahmedabad East,Ahmadabad,GJ
+Ellisbridge,Ahmedabad West,Ahmadabad,GJ
+Naranpura,Gandhinagar,Ahmadabad,GJ
+Nikol,Ahmedabad East,Ahmadabad,GJ
+Naroda,Ahmedabad East,Ahmadabad,GJ
+Thakkarbapa Nagar,Ahmedabad East,Ahmadabad,GJ
+Bapunagar,Ahmedabad East,Ahmadabad,GJ
+Amraiwadi,Ahmedabad West,Ahmadabad,GJ
+Dariapur,Ahmedabad West,Ahmadabad,GJ
+Jamalpur - Khadia,Ahmedabad West,Ahmadabad,GJ
+Maninagar,Ahmedabad West,Ahmadabad,GJ
+Danilimda,Ahmedabad West,Ahmadabad,GJ
+Sabarmati,Gandhinagar,Ahmadabad,GJ
+Asarwa,Ahmedabad West,Ahmadabad,GJ
+Daskroi,Kheda,Ahmadabad,GJ
+Dholka,Kheda,Ahmadabad,GJ
+Dhandhuka,Surendranagar,Ahmadabad,GJ
+Dasada,Surendranagar,Surendranagar,GJ
+Limbdi,Surendranagar,Surendranagar,GJ
+Wadhwan,Surendranagar,Surendranagar,GJ
+Chotila,Surendranagar,Surendranagar,GJ
+Dhrangadhra,Surendranagar,Surendranagar,GJ
+Morbi,Kachchh,Rajkot,GJ
+Tankara,Rajkot,Rajkot,GJ
+Wankaner,Rajkot,Rajkot,GJ
+Rajkot East,Rajkot,Rajkot,GJ
+Rajkot West,Rajkot,Rajkot,GJ
+Rajkot South,Rajkot,Rajkot,GJ
+Rajkot Rural,Rajkot,Rajkot,GJ
+Jasdan,Rajkot,Rajkot,GJ
+Gondal,Porbandar,Rajkot,GJ
+Jetpur,Porbandar,Rajkot,GJ
+Dhoraji,Porbandar,Rajkot,GJ
+Kalavad,Jamnagar,Jamnagar,GJ
+Jamnagr Rural,Jamnagar,Jamnagar,GJ
+Jamnagar North,Jamnagar,Jamnagar,GJ
+Jamnagar South,Jamnagar,Jamnagar,GJ
+Jamjodhpur,Jamnagar,Jamnagar,GJ
+Khambhalia,Jamnagar,Jamnagar,GJ
+Dwarka,Jamnagar,Jamnagar,GJ
+Porbandar,Porbandar,Porbandar,GJ
+Kutiyana,Porbandar,Porbandar,GJ
+Manavadar,Porbandar,Junagadh,GJ
+Junagadh,Junagadh,Junagadh,GJ
+Visavadar,Junagadh,Junagadh,GJ
+Keshod,Porbandar,Junagadh,GJ
+Mangrol,Junagadh,Junagadh,GJ
+Somnath,Junagadh,Junagadh,GJ
+Talala,Junagadh,Junagadh,GJ
+Kodinar,Junagadh,Junagadh,GJ
+Una,Junagadh,Junagadh,GJ
+Dhari,Amreli,Amreli,GJ
+Amreli,Amreli,Amreli,GJ
+Lathi,Amreli,Amreli,GJ
+Savarkundla,Amreli,Amreli,GJ
+Rajula,Amreli,Amreli,GJ
+Mahuva,Amreli,Bhavnagar,GJ
+Talaja,Bhavnagar,Bhavnagar,GJ
+Gariadhar,Amreli,Bhavnagar,GJ
+Palitana,Bhavnagar,Bhavnagar,GJ
+Bhavnagar Rural,Bhavnagar,Bhavnagar,GJ
+Bhavnagar East,Bhavnagar,Bhavnagar,GJ
+Bhavnagar West,Bhavnagar,Bhavnagar,GJ
+Gadhada,Bhavnagar,Bhavnagar,GJ
+Botad,Bhavnagar,Bhavnagar,GJ
+Khambhat,Anand,Anand,GJ
+Borsad,Anand,Anand,GJ
+Anklav,Anand,Anand,GJ
+Umreth,Anand,Anand,GJ
+Anand,Anand,Anand,GJ
+Petlad,Anand,Anand,GJ
+Sojitra,Anand,Anand,GJ
+Matar,Kheda,Kheda,GJ
+Nadiad,Kheda,Kheda,GJ
+Mehmedabad,Kheda,Kheda,GJ
+Mahudha,Kheda,Kheda,GJ
+Thasra,Panchmahal,Kheda,GJ
+Kapadvanj,Kheda,Kheda,GJ
+Balasinor,Panchmahal,Kheda,GJ
+Lunawada,Panchmahal,Panch Mahals,GJ
+Santrampur,Dahod,Panch Mahals,GJ
+Shehra,Panchmahal,Panch Mahals,GJ
+Morva Hadaf,Panchmahal,Panch Mahals,GJ
+Godhra,Panchmahal,Panch Mahals,GJ
+Kalol,Panchmahal,Panch Mahals,GJ
+Halol,Chhota Udaipur,Panch Mahals,GJ
+Fatepura,Dahod,Dohad,GJ
+Jhalod,Dahod,Dohad,GJ
+Limkheda,Dahod,Dohad,GJ
+Dahod,Dahod,Dohad,GJ
+Garbada,Dahod,Dohad,GJ
+Devgadbaria,Dahod,Dohad,GJ
+Savli,Vadodara,Vadodara,GJ
+Vaghodia,Vadodara,Vadodara,GJ
+Chhota Udaipur,Chhota Udaipur,Vadodara,GJ
+Jetpur,Chhota Udaipur,Vadodara,GJ
+Sankheda,Chhota Udaipur,Vadodara,GJ
+Dabhoi,Chhota Udaipur,Vadodara,GJ
+Vadodara City,Vadodara,Vadodara,GJ
+Sayajigunj,Vadodara,Vadodara,GJ
+Akota,Vadodara,Vadodara,GJ
+Raopura,Vadodara,Vadodara,GJ
+Manjalpur,Vadodara,Vadodara,GJ
+Padra,Chhota Udaipur,Vadodara,GJ
+Karjan,Bharuch,Vadodara,GJ
+Nandod,Chhota Udaipur,Narmada,GJ
+Dediapada,Bharuch,Narmada,GJ
+Jambusar,Bharuch,Bharuch,GJ
+Vagra,Bharuch,Bharuch,GJ
+Jhagadia,Bharuch,Bharuch,GJ
+Bharuch,Bharuch,Bharuch,GJ
+Ankleshwar,Bharuch,Bharuch,GJ
+Olpad,Surat,Surat,GJ
+Mangrol,Bardoli,Surat,GJ
+Mandvi,Bardoli,Surat,GJ
+Kamrej,Bardoli,Surat,GJ
+Surat East,Surat,Surat,GJ
+Surat North,Surat,Surat,GJ
+Varachha Road,Surat,Surat,GJ
+Karanj,Surat,Surat,GJ
+Limbayat,Navsari,Surat,GJ
+Udhna,Navsari,Surat,GJ
+Majura,Navsari,Surat,GJ
+Katargam,Surat,Surat,GJ
+Surat West,Surat,Surat,GJ
+Choryasi,Navsari,Surat,GJ
+Bardoli,Bardoli,Surat,GJ
+Mahuva,Bardoli,Surat,GJ
+Vyara,Bardoli,Surat,GJ
+Nizar,Bardoli,Surat,GJ
+Dangs,Valsad,The Dangs,GJ
+Jalalpore,Navsari,Navsari,GJ
+Navsari,Navsari,Navsari,GJ
+Gandevi,Navsari,Navsari,GJ
+Vansda,Valsad,Navsari,GJ
+Dharampur,Valsad,Valsad,GJ
+Valsad,Valsad,Valsad,GJ
+Pardi,Valsad,Valsad,GJ
+Kaprada,Valsad,Valsad,GJ
+Umbergaon,Valsad,Valsad,GJ

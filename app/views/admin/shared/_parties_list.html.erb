@@ -1,0 +1,21 @@
+<div class="box dashboard-parties">
+  <header class="box-header">
+    <h2 class="box-title">Parties</h2>
+
+    <%= link_to '<i class="fas fa-plus-circle"></i>'.html_safe, new_admin_party_path, class: 'box-action' %>
+  </header>
+
+  <div class="box-body box-body-scroll">
+    <ul class="box-list">
+      <% @parties.each do |party| %>
+      <li class="box-list-element text-capitalize">
+        <a href="<%= url_for edit_admin_party_path(party) %>">
+          <%= image_tag party.image.icon.try(:url) if party.image_url && !party.image_url.blank? %>
+          <% unless party.color.blank? %><span class="label-dot" style="background: <%= party.color %>">&nbsp;</span><% end %>
+          [<%= party.abbreviation %>] <%= party.name %>
+        </a>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

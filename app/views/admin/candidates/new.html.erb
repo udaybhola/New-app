@@ -1,0 +1,22 @@
+<div class="size-medium position-center">
+
+  <h2 class="subhead">Add New Candidate</h2>
+  <div class="box box-medium box-center">
+    <%= simple_form_for [:admin, @election, @candidate] do |f| %>
+      <%= f.simple_fields_for :candidatures do |candidature| %>
+        <fieldset class="form-fieldset">
+        <legend class="form-legend">Candidature: <%= candidature.object.try(:constituency).try(:name) %></legend>
+          <%= candidature.association :party %>
+          <%= candidature.association :constituency, collection: @constituencies %>
+          <%= candidature.input :declared %>
+          <%= candidature.input :manifesto, as: :trix_editor %>
+          <%= candidature.input :result %>
+        </fieldset>
+      <% end %>
+      <%= render partial: 'form', locals: {f: f}  %>
+
+    <%= f.submit %>
+  <% end %>
+</div>
+
+</div>

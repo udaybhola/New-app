@@ -1,0 +1,14 @@
+<div class="size-medium position-center">
+  <%= content_for :header_actions do %>
+    <%= link_to 'Delete', admin_poll_path(@poll, country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), method: :delete, data: { confirm: 'Are you certain you want to delete this?' }, class: "header-button" %>
+  <% end %>
+
+  <h2 class="subhead">Issue for <%= @region_name %></h2>
+
+  <div class="box box-medium box-center">
+    Question : <%= @poll.question %>
+    <% @poll.poll_options.sort_by(&:position).each do |poll_option|%>
+      Option <%= poll_option.position %>:  <%= poll_option.answer %>
+    <% end %>
+  </div>
+</div>

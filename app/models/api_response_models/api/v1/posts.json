@@ -1,0 +1,101 @@
+ {
+  "no_of_issues": 25,
+  "no_of_polls": 7,
+  "posts": 
+    [
+      {
+        "question": "From the image below, tell us who has contributed to the BJP’s long Gujarat stint?",
+        "type": "poll",
+        "id": "56b5a6d8-276d-4654-8115-d5b6f4e42a49",
+        "category": {
+          "slug": "environmental-issues",
+          "display_name": "Environmental Issues"
+        },
+        "poll_options": [
+          {
+            "id": 1,
+            "answer": "Disintegration of KHAM (Kshatriya, Harijan, Adivasi, Muslim) alliance",
+            "poll_votes_count": 864
+          },
+          {
+            "id": 2,
+            "answer": "Patidars, shifting allegiance from Congress to BJP",
+            "poll_votes_count": 5359
+          },
+          {
+            "id": 3,
+            "answer": "Consolidation of Hindu votes after Ram Janm Bhoomie",
+            "poll_votes_count": 2823
+          },
+          {
+            "id": 4,
+            "answer": "Further polarisation after Godhra riots",
+            "poll_votes_count": 2123
+          }
+        ],
+        "created_by": {
+          "id": "c8d4f19f-b9f4-4465-af09-88693185df43",
+          "name": "John Appleseed",
+          "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1494594497/qjuv9ci4zdfoj1vkctfh.jpg"
+        }, 
+        "media": [
+          {
+            "type": "image",
+            "url": "http://res.cloudinary.com/starlove-dev/image/upload/v1494594497/qjuv9ci4zdfoj1vkctfh.jpg"
+          }
+        ],
+        "leader_comments": [
+          {
+            "author": { 
+              "id": "4b54c54f-a0a5-4cc6-95d7-d97d5a2be178",
+              "name": "Manpreet Singh Badal",
+              "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1485935041/x3mzmw6glrpbenlcx3fq.jpg"
+            },
+            "comment": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party."
+          }
+        ],
+        "counts": {
+          "likes_count": 7,
+          "comments_count": 2 
+        },
+        "created_time": "4:00 PM, 20 January, 2017"
+      },
+      {
+        "title": "Repair of Durga Mata Mandir Road",
+        "description": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee",
+        "id": "15683a3a-a91b-48c2-b8f8-45d8dbd28da9",
+        "type": "issue",
+        "category": {
+          "slug": "infrastructure",
+          "display_name": "Infrastructure"
+        },
+        "poll_options": [],
+        "created_by": "John Appleseed", 
+        "media": [
+          {
+            "type": "image",
+            "url": "http://res.cloudinary.com/starlove-dev/image/upload/v1485329001/ikddsze0rspyl1smalqh.png"
+          },
+          {
+            "type": "video",
+            "url": "http://res.cloudinary.com/starlove-dev/video/upload/v1486015471/wflfsgoestcvujz284zy.mp4"
+          }
+        ],
+        "leader_comments": [
+          {
+            "author": { 
+              "id": "4b54c54f-a0a5-4cc6-95d7-d97d5a2be178",
+              "name": "Manpreet Singh Badal",
+              "image": "http://res.cloudinary.com/starlove-dev/image/upload/v1485935041/x3mzmw6glrpbenlcx3fq.jpg"
+            },
+            "comment": "It was a humorously perilous business for both of us. For, before we proceed further, it must be said that the monkey-rope was fast at both ends; fast to Queequeg's broad canvas belt, and fast to my narrow leather one. So that for better or for worse, we two, for the time, were wedded; and should poor Queequeg sink to rise no more, then both usage and honour demanded, that instead of cutting the cord, it should drag me down in his wake. So, then, an elongated Siamese ligature united us. Queequeg was my own inseparable twin brother; nor could I any way get rid of the dangerous liabilities which the hempen bond entailed.."
+          }
+        ],
+        "counts": {
+                  "likes_count": 7,
+                  "comments_count": 2 
+                },
+        "created_time": "1:15 PM, 20 January, 2017"
+      }
+    ]
+}

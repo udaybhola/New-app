@@ -1,0 +1,25 @@
+@import "admin/base/colors";
+@import "admin/base/typography";
+@import "admin/base/layout";
+@import "admin/base/position";
+@import "trix";
+
+@import "admin/components/label";
+@import "admin/components/button";
+@import "admin/components/link";
+
+@import "admin/components/table";
+@import "admin/components/form";
+@import "admin/components/trix";
+@import "admin/components/pagination";
+@import "admin/components/tabs";
+
+@import "admin/layout/body";
+@import "admin/layout/header";
+@import "admin/layout/nav";
+@import "admin/layout/main";
+@import "admin/layout/sidebar";
+@import "admin/layout/bar";
+@import "admin/layout/box";
+
+@import "admin/pages/dashboard";

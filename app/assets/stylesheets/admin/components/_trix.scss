@@ -1,0 +1,36 @@
+.trix {
+  &-content {
+    min-height: 10em;
+    max-height: 80vh;
+    border-color: $gray-xlight;
+    overflow: auto;
+  }
+
+  &-editor {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+trix-toolbar {
+  .trix {
+    &-button-group {
+      border-color: $gray-xlight;
+    }
+
+    &-button {
+      border-bottom: none;
+
+      &:not(:first-child) {
+        border-color: $gray-xlight;
+      }
+
+      &--icon-quote,
+      &--icon-code,
+      &--icon-strike {
+        display: none;
+      }
+    }
+  }
+}

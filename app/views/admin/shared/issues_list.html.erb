@@ -1,0 +1,15 @@
+<div class="box">
+  <header class="box-header">
+    <h2 class="box-title"><%= title %></h2>
+    <%= link_to '<i class="fas fa-plus-circle"></i>'.html_safe, new_admin_issue_path(region_type: @region_type, region_id: @region_id), class: 'box-action' if create %>
+  </header>
+  <div class="box-body box-body-scroll">
+    <ul class="box-list">
+      <% posts.each do |poll| %>
+      <li class="box-list-element text-capitalize">
+        <%= link_to poll.name, edit_admin_poll_path(poll) %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+.search-bar {
+  display: block;
+  position: relative;
+  width: 100%;
+  line-height: 36px;
+  padding-top: 16px;
+  overflow: hidden;
+  text-align: center;
+
+  form {
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+  }
+
+  .form-field {
+    display: inline-block;
+    width: auto;
+    border: none;
+    margin: 0px;
+    padding: 0;
+    background: rgba($primary-color, 0.3);
+    padding: 6px;
+    border-radius: 6px;
+
+    &.select select {
+      border: solid 1px $gray-light;
+      font-weight: bold;
+      background: $white;
+      width: 300px;
+    }
+  }
+
+
+  input[type="submit"] {
+    width: 120px;
+    float: left;
+    line-height: 36px;
+    border-radius: 18px;
+    background: $primary-color;
+    color: $white;
+    border: none;
+    padding: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}

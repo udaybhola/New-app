@@ -1,0 +1,48 @@
+Flagged Posts
+
+<% @flagged_posts.each do |post| %>
+  Post:  <%= post.type == "Poll" ? post.question : post.title %>
+  <%= button_to "Approve", admin_approve_resource_path(resource_id: post.id) %> 
+  <%= button_to "Block", admin_block_resource_path(resource_id: post.id) %> 
+<% end %>
+
+
+Blocked Posts
+
+<% @blocked_posts.each do |post| %>
+  Post:  <%= post.type == "Poll" ? post.question : post.title %>
+  <%= button_to "Approve", admin_approve_resource_path(resource_id: post.id) %> 
+<% end %>
+
+
+Approved Posts
+
+<% @approved_posts.each do |post| %>
+  Post:  <%= post.type == "Poll" ? post.question : post.title %>
+  <%= button_to "Block", admin_block_resource_path(resource_id: post.id) %> 
+<% end %>
+
+
+Flagged Comments
+
+<% @flagged_comments.each do |comment| %>
+  Comment Text:  <%= comment.text %>
+  <%= button_to "Approve", admin_approve_resource_path(resource_id: comment.id) %> 
+  <%= button_to "Block", admin_block_resource_path(resource_id: comment.id) %> 
+<% end %>
+
+
+Blocked Comments
+
+<% @blocked_comments.each do |comment| %>
+  Comment Text:  <%= comment.text %>
+  <%= button_to "Approve", admin_approve_resource_path(resource_id: comment.id) %> 
+<% end %>
+
+
+Approved Comments
+
+<% @approved_comments.each do |comment| %>
+  Comment Text:  <%= comment.text %>
+  <%= button_to "Block", admin_block_resource_path(resource_id: comment.id) %> 
+<% end %>

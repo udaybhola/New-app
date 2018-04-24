@@ -1,0 +1,21 @@
+<div class="main">
+<div class="box">
+  <header class="box-header">
+    <h2 class="box-title">Languages</h2>
+  </header>
+
+  <div class="box-body">
+    <ul class="box-list">
+      <% Language.all.each do |language| %>
+      <li class="box-list-element text-capitalize">
+          <% if language.availability %>
+            <%= link_to "#{language.value}[#{language.name}] (Make Unavailable)", admin_language_make_unavailable_path(language), method: :post %>
+          <% else %>
+            <%= link_to "#{language.value}[#{language.name}] (Make Available)", admin_language_make_available_path(language), method: :post %>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+</div>

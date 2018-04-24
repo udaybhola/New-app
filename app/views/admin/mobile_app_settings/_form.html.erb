@@ -1,0 +1,12 @@
+<div class="box box-medium box-center">
+  <%= simple_form_for [:admin, @setting] do |f| %>
+
+
+    <%= f.input :dashboard_state_candidature_count %>
+    <%= f.input :voting_booth_mla_candidature_count %>
+    <%= f.input :voting_booth_mp_candidature_count %>
+    <%= f.input :dashboard_national_candidature_count %>
+
+    <%= f.submit %>
+  <% end %>
+</div>

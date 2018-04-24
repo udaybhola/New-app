@@ -1,0 +1,10 @@
+<div class="size-medium position-center">
+
+  <h2 class="subhead">Add New State</h2>
+
+  <div class="box box-medium box-center">
+    <%= simple_form_for [:admin, @country_state, @constituency] do |f| %>
+      <%= render partial: 'form', locals: {f: f} %>
+    <% end %>
+  </div>
+</div>

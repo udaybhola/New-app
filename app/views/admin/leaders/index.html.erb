@@ -1,0 +1,71 @@
+
+<%= content_for :header_actions do %>
+  <%= link_to "Add Leader", new_admin_leader_path, class: "header-button" %>
+<% end %>
+<div class="main">
+<div class="dashboard-header">
+<h2>Leaders</h2>
+  <%= render partial: 'admin/leaders/leader_filter', locals: {
+    country_states: @country_states,
+    elections: @elections,
+    path: admin_leaders_path
+  } %>
+</div>
+<br>
+<div class="box dashboard-large"> 
+  <table class="table">
+    <thead class="table-header">
+      <th>&nbsp;</th>
+      <th>&nbsp;&nbsp;&nbsp;Name</th>
+      <th>&nbsp;&nbsp;&nbsp;Constituency(Party)</th>
+      <th>&nbsp;&nbsp;&nbsp;Post</th>
+      <th>&nbsp;</th>
+    </thead>
+
+    <tbody class="table-body">
+    <% @candidatures.each do |candidature| %>
+      <% candidate = candidature.candidate %>
+      <tr class="table-row">
+        <td class="table-row-photo">
+          <%= image_tag candidate.profile.profile_pic.icon.url if (candidate.profile && !candidate.profile.profile_pic.blank?) %>
+        </td>
+        <td class="table-row-header">
+          <%= candidate.try(:name) %>  
+          <% if candidate.logged_in? %>           
+            <% text = "User Logged In" %>
+          <% elsif candidate.linked? %>
+            <% text = "Linked" %>
+          <% else %>
+            <% text = "Link" %>
+          <% end %>
+          <br/>
+          
+        </td>
+        <td>
+          <% candidate.candidatures.each do |candidature| %>
+            <%= link_to "#{candidature.constituency.try(:name)} #{candidature.constituency.kind} constituency (#{candidature.try(:party).name})", edit_admin_election_candidature_path(candidature.election, candidature), class: "link-goto text-capitalize"  %> <br/>
+          <% end %>
+        </td>
+        <td class="table-row-header">
+        <%= candidate.profile.profession.try(:name) %>  
+        <% if candidate.logged_in? %>           
+          <% text = "User Logged In" %>
+        <% elsif candidate.linked? %>
+          <% text = "Linked" %>
+        <% else %>
+          <% text = "Link" %>
+        <% end %>
+        <br/>
+        
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td class="table-row-header">
+      <%= link_to "Delete Leader", admin_leader_path(candidate),method: :delete, class: "button" %>
+      </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+
+</div>

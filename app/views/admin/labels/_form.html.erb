@@ -1,0 +1,6 @@
+<%= simple_form_for [:admin, @label] do |f| %>
+  <%= f.input :name %>
+  <%= f.input :color, input_html: {class: 'jscolor {hash: true}'} %>
+
+  <%= f.submit %>
+<% end %>

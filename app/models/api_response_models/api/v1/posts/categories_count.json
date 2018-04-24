@@ -1,0 +1,44 @@
+[
+  {
+    "id": "600119fa-c4e1-4c4f-82a2-e592510a7070",
+    "name": "Educational Issues",
+    "slug": "educational-issues",
+    "count": 42,
+    "image": "https://res.cloudinary.com/dwo2xbukk/image/upload/v1513153367/educational_issues_qynrqn.png"
+  },
+  {
+    "id": "700119fa-c4f1-4c41-82a2-e592510a7070",
+    "name": "Environmental Issues",
+    "slug": "environmental-issues",
+    "count": 35,
+    "image": "https://res.cloudinary.com/dwo2xbukk/image/upload/v1513153406/evnvironmental_issues_jtow5w.png"
+  },
+  {
+    "id": "600119fa-c4e1-4c4f-82e2-e592510a7070",
+    "name": "Financial Issues",
+    "slug": "financial-issues",
+    "count": 27,
+    "image": "https://res.cloudinary.com/dwo2xbukk/image/upload/v1513153413/financial_issue_xvgtfd.png"
+  },
+  {
+    "id": "600119fa-c4f1-4c4f-82a2-e592510a7070",
+    "name": "Health Related Issues",
+    "slug": "health-related-issues",
+    "count": 12,
+    "image": "https://res.cloudinary.com/dwo2xbukk/image/upload/v1513153455/health_related_zd9gv4.png"
+  },
+  {
+    "id": "700119fa-c4f1-4c4f-82a2-e592510a7070",
+    "name": "Infrastructure",
+    "slug": "infrastructure",
+    "count": 24,
+    "image": "https://res.cloudinary.com/dwo2xbukk/image/upload/v1513153430/infrastructure_j5l6un.png"
+  },
+  {
+    "id": "600119fa-d4e1-4c4f-82e2-e592510a7070",
+    "name": "National Issues",
+    "slug": "national-issues",
+    "count": 11,
+    "image": "https://res.cloudinary.com/dwo2xbukk/image/upload/v1513153440/national_issues_oy0p3s.png"
+  }
+]

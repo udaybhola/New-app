@@ -1,0 +1,44 @@
+.score {
+  &-list {
+    display: block;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: $white;
+  }
+
+  &-item {
+    display: block;
+    position: relative;
+    border-bottom: solid 1px $gray-light;
+    height: 96px;
+  }
+
+  &-points {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 700;
+    color: $white;
+    background: $yellow-dark;
+    border: solid 4px $yellow-medium;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  &-title {
+    top: 50%;
+    display: block;
+    position: absolute;
+    left: 90px;
+    right: 24px;
+    line-height: 16px;
+    font-size: 12px;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,31 @@
+.label {
+  display: inline-block;
+  border-radius: 8px;
+  line-height: 16px;
+  padding:  0 4px 0 2px;
+  opacity: 0.6;
+  color: $gray-light;
+  font-size: 12px;
+  text-transform: lowercase;
+
+  &-green {
+    color: $green;
+    background: rgba($green, 0.1);
+  }
+
+  &-red {
+    color: $red;
+    background: rgba($red, 0.1);
+  }
+
+  &-dot {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 3px;
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neta</title>
+    <%= csrf_meta_tags %>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+    <%= stylesheet_link_tag    'admin', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'admin', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'admin' %>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-title"><strong>Neta</strong> Admin</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><%= link_to "Dashboard", admin_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Maps", admin_country_states_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Issues & Polls", admin_issues_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Elections", admin_elections_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Parties", admin_parties_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Leaders", admin_leaders_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Professions", admin_professions_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Mobile App Settings", admin_mobile_app_settings_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Languages", admin_languages_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Language Labels", admin_language_labels_path, class: 'nav-link' %></li>
+          <li class="nav-item"><%= link_to "Influencers", admin_users_path, class: 'nav-link' %></li>
+          <!-- <li class="nav-item"><%= link_to "Religions", admin_religions_path, class: 'nav-link' %></li> -->
+          <!-- <li class="nav-item"><%= link_to "Castes", admin_castes_path, class: 'nav-link' %></li> -->
+        </ul>
+      </nav>
+
+      <div class="header-actions"><%= yield :header_actions %></div>
+    </header>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= yield %>
+  </body>
+</html>

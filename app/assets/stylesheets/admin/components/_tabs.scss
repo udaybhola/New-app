@@ -1,0 +1,36 @@
+.tab {
+
+  &-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    .box-header & {
+      height: 48px;
+    }
+  }
+  
+  &-item {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-link {
+    display: block;;
+    margin-top: 8px;
+    border-radius: 6px 6px 0 0;
+    padding: 6px 12px;
+    line-height: 30px;
+    border: none;
+    background: rgba($black, 0.1);
+
+    &.is-active {
+      font-weight: bold;
+      // color: $white;
+      background: rgba($primary-color, 0.2);
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+<div class="size-medium position-center">
+  <%= content_for :header_actions do %>
+    <%= link_to 'Delete', admin_issue_path(@issue, country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), method: :delete, data: { confirm: 'Are you certain you want to delete this?' }, class: "header-button" %>
+  <% end %>
+
+  <h2 class="subhead">Issue for <%= @region_name %></h2>
+
+  <div class="box box-medium box-center">
+    Title : <%= @issue.title %>
+    Description : <%= @issue.description %>
+  </div>
+</div>

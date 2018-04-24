@@ -1,0 +1,38 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Add Party", new_admin_party_path, class: "header-button" %>
+<% end %>
+
+<div class="main">
+
+<div class="box dashboard-large">
+  <div class="box-header">
+    <%= paginate @parties %>
+    <h2 class="box-title">Parties List (<%= @parties.total_count %>)</h2>
+  </div>
+
+  <table class="box table">
+    <thead class="table-header">
+      <tr>
+        <th>Name</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody class="table-body">
+    <% @parties.each do |party| %>
+      <tr>
+        <td class="table-row-header">
+          <%= party.abbreviation %>
+        </td>
+        <td class="table-row">
+          <%= party.name %>
+        </td>
+        <td class="table-row-actions">
+          <%= link_to 'edit', edit_admin_party_path(party), class: "button" %>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+  </div>
+</div>

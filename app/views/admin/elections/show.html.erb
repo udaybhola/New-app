@@ -1,0 +1,85 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Bulk Upload", new_admin_election_bulk_upload_path(@election), class: "header-button" %>
+<% end %>
+
+<div class="dashboard">
+  <div class="dashboard-header">
+    <%= render partial: 'admin/shared/constituency_filter', locals: {
+          label: "#{@election.title}: Candidate list",
+          path: admin_election_path(@election)
+        } %>
+  </div>
+
+  <div class="box dashboard-large">
+    <div class="box-header">
+      <%= paginate @candidatures %>
+      <h2 class="box-title">
+        Candidate List <span class="box-title-note">
+        <%= link_to "+", new_admin_election_candidate_path(@election), class: "" %>
+        [<%= @candidatures.total_count %> candidates | <%= @candidature_count %> candidatures ]</span>
+      </h2>
+    </div>
+    
+    <table class="table">
+      <thead class="table-header">
+        <th></th>
+        <th>Name</th>
+        <th>Candidatures</th>
+        <th>&nbsp;</th>
+      </thead>
+
+      <tbody class="table-body">
+      <% @candidatures.each do |candidature| %>
+        <% candidate = candidature.candidate %>
+        <tr class="table-row">
+          <td class="table-row-photo">
+            <%= image_tag candidate.profile.profile_pic.icon.url if (candidate.profile && !candidate.profile.profile_pic.blank?) %>
+          </td>
+          <td class="table-row-header">
+            <%= candidate.try(:name) %>  
+            <% if candidate.logged_in? %>           
+              <% text = "User Logged In" %>
+            <% elsif candidate.linked? %>
+              <% text = "Linked" %>
+            <% else %>
+              <% text = "Link" %>
+            <% end %>
+            <br/>
+            <%= link_to text, link_page_admin_election_candidate_path(@election, id: candidate.id), class: "button" %>
+          </td>
+          <td>
+            <% candidate.candidatures.each do |candidature| %>
+              <%= link_to "#{candidature.constituency.try(:name)} #{candidature.constituency.kind} constituency (#{candidature.try(:party).name})", edit_admin_election_candidature_path(candidature.election, candidature), class: "link-goto text-capitalize"  %> <br/>
+            <% end %>
+          </td>
+          <td class="table-row-actions">
+            <%= link_to 'edit profile', edit_admin_election_candidate_path(@election, candidate), class: "button" %>
+            <%= link_to 'add candidature', new_admin_election_candidature_path(@election, candidate_id: candidate.id), class: "button" %>
+
+          </td> 
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="box">
+    <header class="box-header">
+      <h2 class="box-title">Bulk Uploads</h2>
+    </header>
+    <div class="box-body">
+      <ul class="box-list">
+        <% @bulk_files.each do |bulk_file| %>
+          <li class="box-list-element">
+            <span>
+              <strong class="text-capitalize"><%= bulk_file.name %></strong> <br/>
+              <em>uploaded <%= time_ago_in_words(bulk_file.created_at) %> ago</em> <br/>
+              status: <%= bulk_file.status %>
+            </span>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

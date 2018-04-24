@@ -1,0 +1,70 @@
+
+<div class="dashboard">
+  <div class="dashboard-header">
+    <%= render partial: 'admin/shared/grouped_constituency_filter', locals: {
+      country_states: @country_states,
+      path: admin_users_path
+    } %>
+  </div>
+
+  <div class="box dashboard-large">
+    <div class="box-header">
+      <%= paginate @users %>
+      <h2 class="box-title">
+        Influencers List <span class="box-title-note">
+        [<%= @users.total_count %> influencers ]</span>
+      </h2>
+    </div>
+
+    <%= search_form_for [:admin, @q] do |f| %>
+
+      # Search if the name field contains...
+      <%= f.label :profile_name_cont %>
+      <%= f.search_field :profile_name_cont %>
+
+      # Search if an associated phone starts contains..
+      <%= f.label :phone_number_cont %>
+      <%= f.search_field :phone_number_cont %>
+
+      <%= f.submit %>
+    <% end %>
+    
+    <table class="table">
+      <thead class="table-header">
+        <th></th>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Phone Number</th>
+        <th>&nbsp;</th>
+      </thead>
+
+      <tbody class="table-body">
+      <% @users.each do |user| %>
+        <tr class="table-row">
+          <td class="table-row-photo">
+            <%= image_tag user.profile.profile_pic.icon.url if (user.profile && !user.profile.profile_pic.blank?) %>
+          </td>
+          <td class="table-row-header">
+            <%= user.profile.try(:name) %>  
+            <br />
+            <%= link_to "Show", admin_user_path(user), class: "button" %>
+          </td>
+          <td class="table-row-header">
+            <%= user.total_score %>
+          </td>
+           <td class="table-row-header">
+            <%= user.phone_number[3..-1] if user.phone_number %>
+          </td>
+          <td class="table-row-actions">
+            <% if !user.nil? && !user.archived && !user.constituency.nil? %>
+              <%= link_to 'Archive Influencer', deactivate_admin_user_path(user, constituency: user.constituency.slug, country_state: user.country_state.code), method: :post, data: { confirm: 'Are you certain you want to archive this user, this will make user not only unable to login but also invalidates his own points, and reduces points of other influencers whose polls, issues was voted/commented/liked by this user?' }, class: "header-button" %>
+            <% else %>
+              Archived 
+            <% end %>
+          </td> 
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

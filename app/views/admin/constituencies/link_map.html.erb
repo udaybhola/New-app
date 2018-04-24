@@ -1,0 +1,14 @@
+<div class="size-medium position-center">
+  <h2 class="subhead">Link map to <%= @constituency.name.try(:capitalize) %></h2>
+
+  <div class="box box-medium box-center">
+    <%= simple_form_for([:admin, @country_state, @constituency], url: admin_country_state_constituency_save_map_link_path(@country_state), method: 'post' ) do |f| %>
+      <%= f.input :map_link,
+                  collection: @maps,
+                  as: 'select',
+                  label: 'List of unlinked maps' %>
+      <%= f.submit 'Link Map' %>
+      </fieldset>
+    <% end %>
+  </div>
+</div>

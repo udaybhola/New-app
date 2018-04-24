@@ -1,0 +1,81 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Add Issue", new_admin_issue_path, class: "header-button" %>
+  <%= link_to "Add Poll", new_admin_poll_path, class: "header-button" %>
+<% end %>
+
+<div class="main">
+  <div class="dashboard-header">
+    <h2>Issues &amp; Polls</h2>
+    <%= render partial: 'admin/shared/grouped_constituency_filter', locals: {
+      country_states: @country_states,
+      path: admin_issues_path
+    } %>
+  </div>
+
+  </div>
+
+<div class="box dashboard-large">
+  <div class="box-header">
+    <%= paginate @posts %>
+
+    <ul class="tab-list">
+      <li class="tab-item">
+        <%= link_to 'Featured', admin_issues_path(filter: 'featured', country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "tab-link #{'is-active' if @filter == 'featured'}" %>
+      </li>
+      <li class="tab-item">    
+        <%= link_to 'Dashboard', admin_issues_path(filter: 'dashboard', country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "tab-link #{'is-active' if @filter == 'dashboard'}" %>
+      </li>
+      <li class="tab-item">
+        <%= link_to 'Archived', admin_issues_path(filter: 'archived', country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "tab-link #{'is-active' if @filter == 'archived'}" %>
+      </li>
+
+      <li class="tab-item">
+        <%= link_to 'Reported', admin_issues_path(filter: 'reported', country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "tab-link #{'is-active' if @filter == 'reported'}" %>
+      </li>
+
+      <li class="tab-item">
+        <%= link_to 'All', admin_issues_path(filter: 'all',  country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "tab-link #{'is-active' if @filter == 'all'}" %>
+      </li>
+    </ul>
+  </div>
+
+  <table class="box table">
+    <thead class="table-header">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody class="table-body">
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.position %></td>
+        <td class="table-row-header">
+          <span class="label"><%= post.type.upcase %></span>
+          <%= post.name %>
+        </td>
+        <td>
+          <% if post.show_on_dashboard %>
+          <span class="label label-green">dashboard</span>
+          <% end %>
+        </td>
+        <td class="table-row-actions">
+          <%= link_to 'edit', "/admin/#{post.type.pluralize.downcase}/#{post.id}/edit", class: "button" if post.is_admin? %>
+          <%= link_to 'view', "/admin/#{post.type.pluralize.downcase}/#{post.id}?country_state=#{@country_state.try(:code)}&constituency=#{@constituency.try(:slug)}", class: "button" %>
+          <%= button_to "Archive", admin_archive_resource_path(resource_id: post.id, country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), remote: true, class: "button archive_issue" if !post.is_archived? %>
+          <% if post.user_level? && User.unscoped.find(post.user_id).archived %>
+            User is Archived
+          <% else %>
+            <%= button_to "Unarchive", admin_unarchive_resource_path(resource_id: post.id, country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), remote: true, class: "button unarchive_issue" if post.is_archived? %> 
+          <% end %>  
+          <%= button_to "Block", admin_block_resource_path(resource_id: post.id, country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "button" if post.flagged? %> 
+          <%= button_to "Approve", admin_approve_resource_path(resource_id: post.id, country_state: @country_state.try(:code), constituency: @constituency.try(:slug)), class: "button" if post.flagged? %>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+  </div>
+</div>

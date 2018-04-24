@@ -1,0 +1,61 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: $gray-medium;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.text {
+  &-capitalize {
+    text-transform: capitalize;
+  }
+}
+
+.head,
+.subhead {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: $gray-dark;
+  margin-top: 0;
+}
+
+.subhead {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a {
+  color: $gray-dark;
+  text-decoration: none;
+  border-bottom: dotted 1px $primary-color;
+
+  &:hover {
+    background: rgba($primary-color, 0.1);
+  }
+}
+
+.text {
+  &-capitalize {
+    text-transform: capitalize;
+  }
+
+  &-uppercase {
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,50 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Add Constituency", new_admin_country_state_constituency_path(@country_state), class: "header-button" %>
+<% end %>
+
+<div class="main">
+<h2 class="breadcrumbs">
+  <%= link_to "States", admin_country_states_path %> &rsaquo;
+  <span class="text-capitalize"><%= @country_state.name %></span> &rsaquo;
+  <%= params[:kind].try(:capitalize) %>
+  Constituencies
+</h2>
+
+<table class="box table">
+  <thead class="table-header">
+    <tr>
+      <th>Name</th>
+      <th>Map</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody class="table-body">
+  <% @constituncies.each do |constituency| %>
+    <% map = constituency.map.present? %>
+    <tr>
+      <td class="table-row-header">
+        <%= constituency.name %>
+      </td>
+      <td>
+        <% if map %>
+        <span class="label label-green">
+          <i class="fas fa-check-circle"></i>
+          map
+        </span>
+        <% else %>
+        <span class="label label-red">
+          <i class="fas fa-exclamation-circle"></i>
+          map
+        </span>
+        <% end %>
+      </td>
+      <td class="table-row-actions">
+        <%= button_to 'remove map', admin_country_state_constituency_unlink_map_path(@country_state, constituency), method: :delete, class: "button" if map %>
+        <%= link_to 'link map', admin_country_state_constituency_link_map_path(@country_state, constituency, kind: constituency.kind), class: "button" unless map %>
+        <%= link_to 'edit', edit_admin_country_state_constituency_path(@country_state, constituency), class: "button" %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+</div>

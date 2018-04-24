@@ -1,0 +1,15 @@
+<div class="box dashboard-constituencies">
+  <header class="box-header">
+    <h2 class="box-title"><%= title %></h2>
+  </header>
+
+  <div class="box-body box-body-scroll">
+    <ul class="box-list">
+      <% constituencies.each do |constituency| %>
+      <li class="box-list-element text-capitalize">
+        <%= link_to constituency.name, edit_admin_country_state_constituency_path(@country_state, constituency) %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

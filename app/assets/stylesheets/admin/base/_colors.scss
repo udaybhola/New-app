@@ -1,0 +1,27 @@
+$gray-dark: #212121;
+$gray-medium: #404852;
+$gray-light: #8A96A0;
+$gray-xlight: #cccccc;
+$gray-xxlight: #eeeeee;
+$gray-xxxlight: #fafafa;
+
+$white: #ffffff;
+$black: #000000;
+
+$primary-color: #745df1;
+
+$green: #50d04c;
+$red: #ff3125;
+
+$yellow: #fed831;
+
+
+.color {
+  &-green {
+    color: $green;
+  }
+
+  &-red {
+    color: $red;
+  }
+}

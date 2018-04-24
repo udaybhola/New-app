@@ -1,0 +1,231 @@
+AC,PC,District,Code
+Sheopur,Morena,Sheopur,MP
+Vijaypur,Morena,Sheopur,MP
+Sabalgarh,Morena,Morena,MP
+Joura,Morena,Morena,MP
+Sumawali,Morena,Morena,MP
+Morena,Morena,Morena,MP
+Dimani,Morena,Morena,MP
+Ambah,Morena,Morena,MP
+Ater,Bhind,Bhind,MP
+Bhind,Bhind,Bhind,MP
+Lahar,Bhind,Bhind,MP
+Mehgaon,Bhind,Bhind,MP
+Gohad,Bhind,Bhind,MP
+Gwalior Rural,Gwalior,Gwalior,MP
+Gwalior,Gwalior,Gwalior,MP
+Gwalior East,Gwalior,Gwalior,MP
+Gwalior South,Gwalior,Gwalior,MP
+Bhitarwar,Gwalior,Gwalior,MP
+Dabra,Gwalior,Gwalior,MP
+Sewda,Bhind,Datia,MP
+Bhander,Bhind,Datia,MP
+Datia,Bhind,Datia,MP
+Karera,Gwalior,Shivpuri,MP
+Pohari,Gwalior,Shivpuri,MP
+Shivpuri,Guna,Shivpuri,MP
+Pichhore,Guna,Shivpuri,MP
+Kolaras,Guna,Shivpuri,MP
+Bamori,Guna,Guna,MP
+Guna,Guna,Guna,MP
+Chachoura,Rajgarh,Guna,MP
+Raghogarh,Rajgarh,Guna,MP
+Ashok Nagar,Guna,Ashoknagar,MP
+Chanderi,Guna,Ashoknagar,MP
+Mungaoli,Guna,Ashoknagar,MP
+Bina,Sagar,Sagar,MP
+Khurai,Sagar,Sagar,MP
+Surkhi,Sagar,Sagar,MP
+Deori,Damoh,Sagar,MP
+Rehli,Damoh,Sagar,MP
+Naryoli,Sagar,Sagar,MP
+Sagar,Sagar,Sagar,MP
+Banda,Damoh,Sagar,MP
+Tikamgarh,Tikamgarh,Tikamgarh,MP
+Jatara,Tikamgarh,Tikamgarh,MP
+Prithvipur,Tikamgarh,Tikamgarh,MP
+Niwari,Tikamgarh,Tikamgarh,MP
+Khargapur,Tikamgarh,Tikamgarh,MP
+Maharajpur,Tikamgarh,Chhatarpur,MP
+Chandla,Khajuraho,Chhatarpur,MP
+Rajnagar,Khajuraho,Chhatarpur,MP
+Chhatarpur,Tikamgarh,Chhatarpur,MP
+Bijawar,Tikamgarh,Chhatarpur,MP
+Malhara,Damoh,Chhatarpur,MP
+Pathariya,Damoh,Damoh,MP
+Damoh,Damoh,Damoh,MP
+Jabera,Damoh,Damoh,MP
+Hatta,Damoh,Damoh,MP
+Pawai,Khajuraho,Panna,MP
+Gunnaor,Khajuraho,Panna,MP
+Panna,Khajuraho,Panna,MP
+Chitrakoot,Satna,Satna,MP
+Raigaon,Satna,Satna,MP
+Satna,Satna,Satna,MP
+Nagod,Satna,Satna,MP
+Maihar,Satna,Satna,MP
+Amarpatan,Satna,Satna,MP
+Rampur-Baghelan,Satna,Satna,MP
+Sirmour,Rewa,Rewa,MP
+Semariya,Rewa,Rewa,MP
+Teonthar,Rewa,Rewa,MP
+Mauganj,Rewa,Rewa,MP
+Deotalab,Rewa,Rewa,MP
+Mangawan,Rewa,Rewa,MP
+Rewa,Rewa,Rewa,MP
+Gurh,Rewa,Rewa,MP
+Churhat,Sidhi,Sidhi,MP
+Sidhi,Sidhi,Sidhi,MP
+Sihawal,Sidhi,Sidhi,MP
+Chitrangi,Sidhi,Sidhi,MP
+Singrauli,Sidhi,Sidhi,MP
+Devsar,Sidhi,Sidhi,MP
+Dhauhani,Sidhi,Sidhi,MP
+Beohari,Sidhi,Shahdol,MP
+Jaisinghnagar,Shahdol,Shahdol,MP
+Jaitpur,Shahdol,Shahdol,MP
+Kotma,Shahdol,Anuppur,MP
+Anuppur,Shahdol,Anuppur,MP
+Pushprajgarh,Shahdol,Anuppur,MP
+Bandhavgarh,Shahdol,Umaria,MP
+Manpur,Shahdol,Umaria,MP
+Barwara,Shahdol,Katni,MP
+Vijayraghogarh,Khajuraho,Katni,MP
+Murwara,Khajuraho,Katni,MP
+Bahoriband,Khajuraho,Katni,MP
+Patan,Jabalpur,Jabalpur,MP
+Bargi,Jabalpur,Jabalpur,MP
+Jabalpur Purba,Jabalpur,Jabalpur,MP
+Jabalpur Uttar,Jabalpur,Jabalpur,MP
+Jabalpur Cantt.,Jabalpur,Jabalpur,MP
+Jabalpur Paschim,Jabalpur,Jabalpur,MP
+Panagar,Jabalpur,Jabalpur,MP
+Sihora,Jabalpur,Jabalpur,MP
+Shahpura,Mandla,Dindori,MP
+Dindori,Mandla,Dindori,MP
+Bichhiya,Mandla,Mandla,MP
+Niwas,Mandla,Mandla,MP
+Mandla,Mandla,Mandla,MP
+Baihar,Balaghat,Balaghat,MP
+Lanji,Balaghat,Balaghat,MP
+Paraswada,Balaghat,Balaghat,MP
+Balaghat,Balaghat,Balaghat,MP
+Waraseoni,Balaghat,Balaghat,MP
+Katangi,Balaghat,Balaghat,MP
+Barghat,Balaghat,Seoni,MP
+Seoni,Balaghat,Seoni,MP
+Keolari,Mandla,Seoni,MP
+Lakhnadon,Mandla,Seoni,MP
+Gotegaon,Mandla,Narsimhapur,MP
+Narsingpur,Hoshangabad,Narsimhapur,MP
+Tendukheda,Hoshangabad,Narsimhapur,MP
+Gadarwara,Hoshangabad,Narsimhapur,MP
+Junnardeo,Chhindwara,Chhindwara,MP
+Amarwara,Chhindwara,Chhindwara,MP
+Churai,Chhindwara,Chhindwara,MP
+Saunsar,Chhindwara,Chhindwara,MP
+Chhindwara,Chhindwara,Chhindwara,MP
+Parasia,Chhindwara,Chhindwara,MP
+Pandhurna,Chhindwara,Chhindwara,MP
+Multai,Betul,Betul,MP
+Amla,Betul,Betul,MP
+Betul,Betul,Betul,MP
+Ghoradongri,Betul,Betul,MP
+Bhainsdehi,Betul,Betul,MP
+Timarni,Betul,Harda,MP
+Harda,Betul,Harda,MP
+Seoni-Malwa,Hoshangabad,Hoshangabad,MP
+Hoshangabad,Hoshangabad,Hoshangabad,MP
+Sohagpur,Hoshangabad,Hoshangabad,MP
+Pipariya,Hoshangabad,Hoshangabad,MP
+Udaipura,Hoshangabad,Raisen,MP
+Bhojpur,Vidisha,Raisen,MP
+Sanchi,Vidisha,Raisen,MP
+Silwani,Vidisha,Raisen,MP
+Vidisha,Vidisha,Vidisha,MP
+Basoda,Vidisha,Vidisha,MP
+Kurwai,Sagar,Vidisha,MP
+Sironj,Sagar,Vidisha,MP
+Shamshabad,Sagar,Vidisha,MP
+Berasia,Bhopal,Bhopal,MP
+Bhopal Uttar,Bhopal,Bhopal,MP
+Narela,Bhopal,Bhopal,MP
+Bhopal Dakshin-Paschim,Bhopal,Bhopal,MP
+Bhopal Madhya,Bhopal,Bhopal,MP
+Govindpura,Bhopal,Bhopal,MP
+Huzur,Bhopal,Bhopal,MP
+Budhni,Vidisha,Sehore,MP
+Ashta,Dewas,Sehore,MP
+Ichhawar,Vidisha,Sehore,MP
+Sehore,Bhopal,Sehore,MP
+Narsinghgarh,Rajgarh,Rajgarh,MP
+Biaora,Rajgarh,Rajgarh,MP
+Rajgarh,Rajgarh,Rajgarh,MP
+Khilchipur,Rajgarh,Rajgarh,MP
+Sarangpur,Rajgarh,Rajgarh,MP
+Susner,Rajgarh,Shajapur,MP
+Agar,Dewas,Shajapur,MP
+Shajapur,Dewas,Shajapur,MP
+Shujalpur,Dewas,Shajapur,MP
+Kalapipal,Dewas,Shajapur,MP
+Sonkatch,Dewas,Dewas,MP
+Dewas,Dewas,Dewas,MP
+Hatpipliya,Dewas,Dewas,MP
+Khategaon,Vidisha,Dewas,MP
+Bagali,Khandwa,Dewas,MP
+Mandhata,Khandwa,East Nimar,MP
+Harsud,Betul,East Nimar,MP
+Khandwa,Khandwa,East Nimar,MP
+Pandhana,Khandwa,East Nimar,MP
+Nepanagar,Khandwa,Burhanpur,MP
+Burhanpur,Khandwa,Burhanpur,MP
+Bhikangaon,Khandwa,West Nimar,MP
+Badwah,Khandwa,West Nimar,MP
+Maheshwar,Khargone,West Nimar,MP
+Kasrawad,Khargone,West Nimar,MP
+Khargone,Khargone,West Nimar,MP
+Bhagwanpura,Khargone,West Nimar,MP
+Sendhawa,Khargone,Barwani,MP
+Rajpur,Khargone,Barwani,MP
+Pansemal,Khargone,Barwani,MP
+Badwani,Khargone,Barwani,MP
+Alirajpur,Ratlam,Jhabua,MP
+Jobat,Ratlam,Jhabua,MP
+Jhabua,Ratlam,Jhabua,MP
+Thandla,Ratlam,Jhabua,MP
+Petlawad,Ratlam,Jhabua,MP
+Sardarpur,Dhar,Dhar,MP
+Gandhwani,Dhar,Dhar,MP
+Kukshi,Dhar,Dhar,MP
+Manawar,Dhar,Dhar,MP
+Dharampuri,Dhar,Dhar,MP
+Dhar,Dhar,Dhar,MP
+Badnawar,Dhar,Dhar,MP
+Depalpur,Indore,Indore,MP
+Indore-1,Indore,Indore,MP
+Indore-2,Indore,Indore,MP
+Indore-3,Indore,Indore,MP
+Indore-4,Indore,Indore,MP
+Indore-5,Indore,Indore,MP
+Dr. Ambedkar Nagar-Mhow,Dhar,Indore,MP
+Rau,Indore,Indore,MP
+Sanwer,Indore,Indore,MP
+Nagada-Khachrod,Ujjain,Ujjain,MP
+Mahidpur,Ujjain,Ujjain,MP
+Tarana,Ujjain,Ujjain,MP
+Ghatiya,Ujjain,Ujjain,MP
+Ujjain Uttar,Ujjain,Ujjain,MP
+Ujjain Dakshin,Ujjain,Ujjain,MP
+Badnagar,Ujjain,Ujjain,MP
+Ratlam Rural,Ratlam,Ratlam,MP
+Ratlam City,Ratlam,Ratlam,MP
+Sailana,Ratlam,Ratlam,MP
+Jaora,Mandsour,Ratlam,MP
+Alot,Ujjain,Ratlam,MP
+Mandsour,Mandsour,Mandsaur,MP
+Malhargarh,Mandsour,Mandsaur,MP
+Suwasra,Mandsour,Mandsaur,MP
+Garoth,Mandsour,Mandsaur,MP
+Manasa,Mandsour,Neemuch,MP
+Neemuch,Mandsour,Neemuch,MP
+Jawad,Mandsour,Neemuch,MP

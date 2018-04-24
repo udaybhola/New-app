@@ -1,0 +1,12 @@
+<div class="box box-medium box-center">
+  <%= simple_form_for [:admin, @election] do |f| %>
+    <%= f.input :kind, collection: Election::KINDS %>
+
+    <%= f.association :country_state %>
+
+    <%= f.input :starts_at %>
+    <%= f.input :ends_at %>
+
+    <%= f.submit %>
+  <% end %>
+</div>

@@ -1,0 +1,289 @@
+AC,PC,District,Code
+Akkalkuwa,Nandurbar,Nandurbar,MH
+Shahada,Nandurbar,Nandurbar,MH
+Nandurbar,Nandurbar,Nandurbar,MH
+Nawapur,Nandurbar,Nandurbar,MH
+Sakri,Nandurbar,Dhule,MH
+Dhule Rural,Dhule,Dhule,MH
+Dhule City,Dhule,Dhule,MH
+Sindkheda,Dhule,Dhule,MH
+Shirpur,Nandurbar,Dhule,MH
+Chopda,Raver,Jalgaon,MH
+Raver,Raver,Jalgaon,MH
+Bhusawal,Raver,Jalgaon,MH
+Jalgaon City,Jalgaon,Jalgaon,MH
+Jalgaon Rural,Jalgaon,Jalgaon,MH
+Amalner,Jalgaon,Jalgaon,MH
+Erandol,Jalgaon,Jalgaon,MH
+Chalisgaon,Jalgaon,Jalgaon,MH
+Pachora,Jalgaon,Jalgaon,MH
+Jamner,Raver,Jalgaon,MH
+Muktainagar,Raver,Jalgaon,MH
+Malkapur,Raver,Buldana,MH
+Buldhana,Buldhana,Buldana,MH
+Chikhli,Buldhana,Buldana,MH
+Sindkhed Raja,Buldhana,Buldana,MH
+Mehkar,Buldhana,Buldana,MH
+Khamgaon,Buldhana,Buldana,MH
+Jalgaon (Jamod),Buldhana,Buldana,MH
+Akot,Akola,Akola,MH
+Balapur,Akola,Akola,MH
+Akola West,Akola,Akola,MH
+Akola East,Akola,Akola,MH
+Murtizapur,Akola,Akola,MH
+Risod,Akola,Washim,MH
+Washim,Yavatmal-Washim,Washim,MH
+Karanja,Yavatmal-Washim,Washim,MH
+Dhamamgaon Railway,Wardha,Amravati,MH
+Badnera,Amravati,Amravati,MH
+Amravati,Amravati,Amravati,MH
+Teosa,Amravati,Amravati,MH
+Daryapur,Amravati,Amravati,MH
+Melghat,Amravati,Amravati,MH
+Achalpur,Amravati,Amravati,MH
+Morshi,Wardha,Amravati,MH
+Arvi,Wardha,Wardha,MH
+Deoli,Wardha,Wardha,MH
+Hinganghat,Wardha,Wardha,MH
+Wardha,Wardha,Wardha,MH
+Katol,Ramtek,Nagpur,MH
+Savner,Ramtek,Nagpur,MH
+Hingna,Ramtek,Nagpur,MH
+Umred,Ramtek,Nagpur,MH
+Nagpur South West,Nagpur,Nagpur,MH
+Nagpur South,Nagpur,Nagpur,MH
+Nagpur East,Nagpur,Nagpur,MH
+Nagpur Central,Nagpur,Nagpur,MH
+Nagpur West,Nagpur,Nagpur,MH
+Nagpur North,Nagpur,Nagpur,MH
+Kamthi,Ramtek,Nagpur,MH
+Ramtek,Ramtek,Nagpur,MH
+Tumsar,Bhandara - Gondiya,Bhandara,MH
+Bhandara,Bhandara - Gondiya,Bhandara,MH
+Sakoli,Bhandara - Gondiya,Bhandara,MH
+Arjuni-Morgaon,Bhandara - Gondiya,Gondiya,MH
+Tirora,Bhandara - Gondiya,Gondiya,MH
+Gondiya,Bhandara - Gondiya,Gondiya,MH
+Amgaon,Gadchiroli-Chimur,Gondiya,MH
+Armori,Gadchiroli-Chimur,Gadchiroli,MH
+Gadchiroli,Gadchiroli-Chimur,Gadchiroli,MH
+Aheri,Gadchiroli-Chimur,Gadchiroli,MH
+Rajura,Chandrapur,Chandrapur,MH
+Chandrapur,Chandrapur,Chandrapur,MH
+Ballarpur,Chandrapur,Chandrapur,MH
+Brahmapuri,Gadchiroli-Chimur,Chandrapur,MH
+Chimur,Gadchiroli-Chimur,Chandrapur,MH
+Warora,Chandrapur,Chandrapur,MH
+Wani,Chandrapur,Yavatmal,MH
+Ralegaon,Yavatmal-Washim,Yavatmal,MH
+Yavatmal,Yavatmal-Washim,Yavatmal,MH
+Digras,Yavatmal-Washim,Yavatmal,MH
+Arni,Chandrapur,Yavatmal,MH
+Pusad,Yavatmal-Washim,Yavatmal,MH
+Umarkhed,Hingoli,Yavatmal,MH
+Kinwat,Hingoli,Nanded,MH
+Hadgaon,Hingoli,Nanded,MH
+Bhokar,Nanded,Nanded,MH
+Nanded North,Nanded,Nanded,MH
+Nanded South,Nanded,Nanded,MH
+Loha,Latur,Nanded,MH
+Naigaon,Nanded,Nanded,MH
+Deglur,Nanded,Nanded,MH
+Mukhed,Nanded,Nanded,MH
+Basmath,Hingoli,Hingoli,MH
+Kalamnuri,Hingoli,Hingoli,MH
+Hingoli,Hingoli,Hingoli,MH
+Jintur,Parbhani,Parbhani,MH
+Parbhani,Parbhani,Parbhani,MH
+Gangakhed,Parbhani,Parbhani,MH
+Pathri,Parbhani,Parbhani,MH
+Partur,Parbhani,Jalna,MH
+Ghansawangi,Parbhani,Jalna,MH
+Jalna,Jalna,Jalna,MH
+Badnapur,Jalna,Jalna,MH
+Bhokardan,Jalna,Jalna,MH
+Sillod,Jalna,Aurangabad,MH
+Kannad,Aurangabad,Aurangabad,MH
+Phulambri,Jalna,Aurangabad,MH
+Aurangabad Central,Aurangabad,Aurangabad,MH
+Aurangabad West,Aurangabad,Aurangabad,MH
+Aurangabad East,Aurangabad,Aurangabad,MH
+Paithan,Jalna,Aurangabad,MH
+Gangapur,Aurangabad,Aurangabad,MH
+Vaijapur,Aurangabad,Aurangabad,MH
+Nandgaon,Dindori,Nashik,MH
+Malegaon Central,Dhule,Nashik,MH
+Malegaon Outer,Dhule,Nashik,MH
+Baglan,Dhule,Nashik,MH
+Kalwan,Dindori,Nashik,MH
+Chandvad,Dindori,Nashik,MH
+Yevla,Dindori,Nashik,MH
+Sinnar,Nashik,Nashik,MH
+Niphad,Dindori,Nashik,MH
+Dindori,Dindori,Nashik,MH
+Nashik East,Nashik,Nashik,MH
+Nashik Central,Nashik,Nashik,MH
+Nashik West,Nashik,Nashik,MH
+Devlali,Nashik,Nashik,MH
+Igatpuri,Nashik,Nashik,MH
+Dahanu,Palghar,Thane,MH
+Vikramgad,Palghar,Thane,MH
+Palghar,Palghar,Thane,MH
+Boisar,Palghar,Thane,MH
+Nalasopara,Palghar,Thane,MH
+Vasai,Palghar,Thane,MH
+Bhiwandi Rural,Bhiwandi,Thane,MH
+Shahapur,Bhiwandi,Thane,MH
+Bhiwandi West,Bhiwandi,Thane,MH
+Bhiwandi East,Bhiwandi,Thane,MH
+Kalyan West,Bhiwandi,Thane,MH
+Murbad,Bhiwandi,Thane,MH
+Ambernath,Kalyan,Thane,MH
+Ulhasnagar,Kalyan,Thane,MH
+Kalyan East,Kalyan,Thane,MH
+Dombivali,Kalyan,Thane,MH
+Kalyan Rural,Kalyan,Thane,MH
+Mira Bhayandar,Thane,Thane,MH
+Ovala - Majiwada,Thane,Thane,MH
+Kopri-Pachpakhadi,Thane,Thane,MH
+Thane,Thane,Thane,MH
+Mumbra-Kalwa,Kalyan,Thane,MH
+Airoli,Thane,Thane,MH
+Belapur,Thane,Thane,MH
+Borivali,Mumbai North,Mumbai (Suburban),MH
+Dahisar,Mumbai North,Mumbai (Suburban),MH
+Magathane,Mumbai North,Mumbai (Suburban),MH
+Mulund,Mumbai North East,Mumbai (Suburban),MH
+Vikhroli,Mumbai North East,Mumbai (Suburban),MH
+Bhandup West,Mumbai North East,Mumbai (Suburban),MH
+Jogeshwari East,Mumbai North West,Mumbai (Suburban),MH
+Dindoshi,Mumbai North West,Mumbai (Suburban),MH
+Kandivali East,Mumbai North,Mumbai (Suburban),MH
+Charkop,Mumbai North,Mumbai (Suburban),MH
+Malad West,Mumbai North,Mumbai (Suburban),MH
+Goregaon,Mumbai North West,Mumbai (Suburban),MH
+Versova,Mumbai North West,Mumbai (Suburban),MH
+Andheri West,Mumbai North West,Mumbai (Suburban),MH
+Andheri East,Mumbai North West,Mumbai (Suburban),MH
+Vile Parle,Mumbai North Central,Mumbai (Suburban),MH
+Chandivali,Mumbai North Central,Mumbai (Suburban),MH
+Ghatkopar West,Mumbai North East,Mumbai (Suburban),MH
+Ghatkopar East,Mumbai North East,Mumbai (Suburban),MH
+Mankhurd Shivaji Nagar,Mumbai North East,Mumbai (Suburban),MH
+Anushakti Nagar,Mumbai South Central,Mumbai (Suburban),MH
+Chembur,Mumbai South Central,Mumbai (Suburban),MH
+Kurla,Mumbai North Central,Mumbai (Suburban),MH
+Kalina,Mumbai North Central,Mumbai (Suburban),MH
+Vandre East,Mumbai North Central,Mumbai (Suburban),MH
+Vandre West,Mumbai North Central,Mumbai (Suburban),MH
+Dharavi,Mumbai South Central,Mumbai,MH
+Sion Koliwada,Mumbai South Central,Mumbai,MH
+Wadala,Mumbai South Central,Mumbai,MH
+Mahim,Mumbai South Central,Mumbai,MH
+Worli,Mumbai South,Mumbai,MH
+Shivadi,Mumbai South,Mumbai,MH
+Byculla,Mumbai South,Mumbai,MH
+Malabar Hill,Mumbai South,Mumbai,MH
+Mumbadevi,Mumbai South,Mumbai,MH
+Colaba,Mumbai South,Mumbai,MH
+Panvel,Maval,Raigarh,MH
+Karjat,Maval,Raigarh,MH
+Uran,Maval,Raigarh,MH
+Pen,Raigad,Raigarh,MH
+Alibag,Raigad,Raigarh,MH
+Shrivardhan,Raigad,Raigarh,MH
+Mahad,Raigad,Raigarh,MH
+Junnar,Shirur,Pune,MH
+Ambegaon,Shirur,Pune,MH
+Khed Alandi,Shirur,Pune,MH
+Shirur,Shirur,Pune,MH
+Daund,Baramati,Pune,MH
+Indapur,Baramati,Pune,MH
+Baramati,Baramati,Pune,MH
+Purandar,Baramati,Pune,MH
+Bhor,Baramati,Pune,MH
+Maval,Maval,Pune,MH
+Chinchwad,Maval,Pune,MH
+Pimpri,Maval,Pune,MH
+Bhosari,Shirur,Pune,MH
+Vadgaon Sheri,Pune,Pune,MH
+Shivajinagar,Pune,Pune,MH
+Kothrud,Pune,Pune,MH
+Khadakwasala,Baramati,Pune,MH
+Parvati,Pune,Pune,MH
+Hadapsar,Shirur,Pune,MH
+Pune Cantonment,Pune,Pune,MH
+Kasba Peth,Pune,Pune,MH
+Akole,Shirdi,Ahmadnagar,MH
+Sangamner,Shirdi,Ahmadnagar,MH
+Shirdi,Shirdi,Ahmadnagar,MH
+Kopargaon,Shirdi,Ahmadnagar,MH
+Shrirampur,Shirdi,Ahmadnagar,MH
+Nevasa,Shirdi,Ahmadnagar,MH
+Shevgaon,Ahmadnagar,Ahmadnagar,MH
+Rahuri,Ahmadnagar,Ahmadnagar,MH
+Parner,Ahmadnagar,Ahmadnagar,MH
+Ahmednagar City,Ahmadnagar,Ahmadnagar,MH
+Shrigonda,Ahmadnagar,Ahmadnagar,MH
+Karjat Jamkhed,Ahmadnagar,Ahmadnagar,MH
+Georai,Beed,Bid,MH
+Majalgaon,Beed,Bid,MH
+Beed,Beed,Bid,MH
+Ashti,Beed,Bid,MH
+Kaij,Beed,Bid,MH
+Parli,Beed,Bid,MH
+Latur Rural,Latur,Latur,MH
+Latur City,Latur,Latur,MH
+Ahmadpur,Latur,Latur,MH
+Udgir,Latur,Latur,MH
+Nilanga,Latur,Latur,MH
+Ausa,Osmanabad,Latur,MH
+Umarga,Osmanabad,Osmanabad,MH
+Tuljapur,Osmanabad,Osmanabad,MH
+Osmanabad,Osmanabad,Osmanabad,MH
+Paranda,Osmanabad,Osmanabad,MH
+Karmala,Madha,Solapur,MH
+Madha,Madha,Solapur,MH
+Barshi,Osmanabad,Solapur,MH
+Mohol,Solapur,Solapur,MH
+Solapur City North,Solapur,Solapur,MH
+Solapur City Central,Solapur,Solapur,MH
+Akkalkot,Solapur,Solapur,MH
+Solapur South,Solapur,Solapur,MH
+Pandharpur,Solapur,Solapur,MH
+Sangola,Madha,Solapur,MH
+Malshiras,Madha,Solapur,MH
+Phaltan,Madha,Satara,MH
+Wai,Satara,Satara,MH
+Koregaon,Satara,Satara,MH
+Man,Madha,Satara,MH
+Karad North,Satara,Satara,MH
+Karad South,Satara,Satara,MH
+Patan,Satara,Satara,MH
+Satara,Satara,Satara,MH
+Dapoli,Raigad,Ratnagiri,MH
+Guhagar,Raigad,Ratnagiri,MH
+Chiplun,Ratnagiri - Sindhudurg,Ratnagiri,MH
+Ratnagiri,Ratnagiri - Sindhudurg,Ratnagiri,MH
+Rajapur,Ratnagiri - Sindhudurg,Ratnagiri,MH
+Kankavli,Ratnagiri - Sindhudurg,Sindhudurg,MH
+Kudal,Ratnagiri - Sindhudurg,Sindhudurg,MH
+Sawantwadi,Ratnagiri - Sindhudurg,Sindhudurg,MH
+Chandgad,Kolhapur,Kolhapur,MH
+Radhanagari,Kolhapur,Kolhapur,MH
+Kagal,Kolhapur,Kolhapur,MH
+Kolhapur South,Kolhapur,Kolhapur,MH
+Karvir,Kolhapur,Kolhapur,MH
+Kolhapur North,Kolhapur,Kolhapur,MH
+Shahuwadi,Hatkanangle,Kolhapur,MH
+Hatkanangle,Hatkanangle,Kolhapur,MH
+Ichalkaranji,Hatkanangle,Kolhapur,MH
+Shirol,Hatkanangle,Kolhapur,MH
+Miraj,Sangli,Sangli,MH
+Sangli,Sangli,Sangli,MH
+Islampur,Hatkanangle,Sangli,MH
+Shirala,Hatkanangle,Sangli,MH
+Palus-Kadegaon,Sangli,Sangli,MH
+Khanapur,Sangli,Sangli,MH
+Tasgaon-Kavathe Mahankal,Sangli,Sangli,MH
+Jath,Sangli,Sangli,MH

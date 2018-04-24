@@ -1,0 +1,13 @@
+<header class="sidebar-header">
+  <h2 class="sidebar-title">States</h2>
+</header>
+
+<div class="sidebar-body">
+  <ul class="sidebar-list">
+    <% @country_states.each do |country_state| %>
+    <li class="sidebar-list-element text-capitalize">
+      <%= link_to country_state.name, edit_admin_country_state_path(country_state) %>
+    </li>
+    <% end %>
+  </ul>
+</div>

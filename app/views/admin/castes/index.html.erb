@@ -1,0 +1,31 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Add Caste", new_admin_caste_path, class: "header-button" %>
+<% end %>
+
+<div class="main">
+<h2 class="subhead">Castes</h2>
+
+<table class="box table">
+  <thead class="table-header">
+    <tr>
+      <th>Name</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody class="table-body">
+  <% @castes.each do |caste| %>
+    <tr>
+      <td class="table-row-header">
+        <%= caste.name %> <br/>
+      </td>
+      <td class="table-row-links">
+      </td>
+      <td class="table-row-actions">
+        <%= link_to 'edit', edit_admin_caste_path(caste), class: "button" %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+</div>

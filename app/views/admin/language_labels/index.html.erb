@@ -1,0 +1,33 @@
+<div class="main">
+  <div class="box">
+    <header class="box-header">
+      <h2 class="box-title">Upload CSV</h2>
+    </header>
+
+    <div class="box-body">
+        <div class="box-medium box-center">
+          <%= simple_form_for :upload, url: upload_admin_language_labels_path do |f| %>
+            <%= f.input :file, as: :file %>
+            <%= f.submit 'Upload' %>
+          <% end %>
+        </div>
+    </div>
+  </div>
+
+  <div class="box">
+    <header class="box-header">
+      <h2 class="box-title">Translations</h2>
+    </header>
+    Total translations: <%= LanguageLabel.all.count%>
+    <div class="box-body">
+      <ul>
+        <% LanguageLabel.all.each do |label| %>
+          <li>
+            <p>Key: <%= label.key %></p>
+            <p>Value: <%= raw label.translations %>
+          </li>
+        <% end %>
+      </ul
+    </div>
+  </div>
+</div>

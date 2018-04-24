@@ -1,0 +1,16 @@
+<%= f.input :abbreviation %>
+<%= f.input :name %>
+
+<%= image_tag @party.image.icon.url unless @party.image_url.blank? %>
+<%= f.input :image %>
+
+<%= f.input :color, input_html: {class: 'jscolor {hash: true}'} %>
+
+<%= f.input :phone %>
+<%= f.input :phone2 %>
+<%= f.input :email %>
+<%= f.input :website %>
+<%= f.input :twitter %>
+<%= f.input :facebook %>
+
+<%= f.submit %>

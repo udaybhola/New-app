@@ -1,0 +1,101 @@
+<%= content_for :header_actions do %>
+  <%= link_to "Clear Cache", admin_clear_cache_path, class: 'header-button' %>
+<% end %>
+
+<!-- 
+  * Elections
+    * Candidates
+    * Candidatures
+  * Parties
+    * Party Leaders
+  * State
+    * Constituency
+      * Top Influencers
+      * Top Leaders
+  * Moderation
+    * Issues
+    * Polls
+    * Comments
+ -->
+
+<div class="dashboard" data-controller="dashboard">
+  <div class="dashboard-header">
+    <!-- <h2>Dashboard</h2> -->
+    <%= render partial: 'admin/shared/grouped_constituency_filter', locals: {
+      country_states: @country_states,
+      path: admin_path
+    } %>
+  </div>
+
+  <%#= render partial: 'admin/shared/parties_list', locals: {
+    parties: @parties
+  } %>
+
+  <%= render partial: 'admin/shared/elections_list', locals: {
+    elections: @elections
+  } %>
+
+  <% if @country_state %>
+    <%= render partial: 'admin/shared/constituencies_list', locals: {
+      constituencies: @parliamentary_constituencies,
+      title: 'Parliamentary Constituencies'
+    } %>
+
+    <%= render partial: 'admin/shared/constituencies_list', locals: {
+      constituencies: @assembly_constituencies,
+      title: 'Assembly Constituencies'
+    } %>
+  <% else %>
+
+  <div class="box">
+    <header class="box-header">
+      <h2 class="box-title">States</h2>
+      <%#= link_to '<i class="fas fa-plus-circle"></i>'.html_safe, new_admin_election_path, class: 'box-action' %>
+    </header>
+
+    <div class="box-body box-body-scroll">
+      <ul class="box-list">
+        <% @country_states.each do |country_state| %>
+        <li class="box-list-element text-capitalize">
+          <%= link_to country_state.name, admin_country_state_path(country_state) %>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>  
+  <% end %>
+
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @admin_polls,
+    title: 'Admin Polls',
+    create: true,
+    type: 'poll'
+  } if @admin_polls %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @admin_issues,
+    title: 'Admin Issues',
+    create: true,
+    type: 'issue' 
+  } if @admin_issues %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @polls,
+    title: 'Polls',
+    create: true,
+    type: 'poll'
+  } if @polls %>
+
+  <%= render partial: 'admin/shared/posts_list', locals: {
+    posts: @issues,
+    title: 'Issues',
+    create: true,
+    type: 'issue' 
+  } if @issues %>
+
+  <%= render partial: 'admin/shared/labels_list', locals: { labels: @labels } %>
+
+
+</div>
+

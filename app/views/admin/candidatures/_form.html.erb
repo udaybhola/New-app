@@ -1,0 +1,16 @@
+<div class="box box-medium box-center">
+  <%= simple_form_for [:admin, @election, @candidature] do |f| %>
+    <% if @candidate %>
+      <%= f.input :candidate_id, input_html: {value: @candidate.id}, as: :hidden %>
+      <%= f.input :candidate_name, input_html: {value: @candidate.profile.name }, label: 'Candidate', disabled: true %>
+    <% end %>
+    <%= f.association :party, selected: @candidate.try(:candidatures).try(:first).try(:party).try(:id), label_method: :label %>
+    <%= f.association :constituency, collection: @constituencies %>
+    <%= f.input :declared %>
+    <%= f.input :manifesto, as: :trix_editor %>
+    <%= f.input :result %>
+    <%= f.input :votes_received %>
+
+    <%= f.submit %>
+  <% end %>
+</div>

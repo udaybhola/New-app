@@ -1,0 +1,57 @@
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+
+<div id="map" style="width: 900px; height: 900px;">
+</div>
+
+
+<script>
+  mapboxgl.accessToken = '<%= ENV['MAPBOX_ACCESS_TOKEN'] %>';
+  var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/madhu314/cjc8zh45k7fpi2spltb98qv5c',
+      center: [<%= @lon %>, <%= @lat %>],
+      zoom: <%= @zoom_level %>,
+      attributionControl: false,
+      logoPosition: 'bottom-left'
+  });
+
+  map.on('load', function () {
+
+        map.addSource("state_map", {
+          "type": "geojson",
+          "data": <%= raw @state_geojson.to_json %>
+        })
+
+        <% @selected_ids.each do |item| %>
+          map.addLayer({
+              "id": "<%= item[:id] %>",
+              "type": "fill",
+              "source": "state_map",
+              "paint": {
+                  "fill-color": "<%= item[:color] %>",
+              },
+              "filter": ["==", "id", "<%= item[:id] %>"]
+          });
+
+          map.addLayer({
+              "id": "stroke-layer",
+              "type": "line",
+              "source": "state_map",
+              "paint": {
+                  "line-color": "rgba(255,255,255,0.8)",
+                  "line-width": 0.5,
+              },
+              "filter": ["==", "$type", "Polygon"]
+          });
+        <% end %>
+
+        var coordinates = <%= raw @bounding_coords.to_json %>
+        var bounds = coordinates.reduce(function(bounds, coord) {
+            return bounds.extend(coord);
+        }, new mapboxgl.LngLatBounds(new mapboxgl.LngLat(coordinates[0][0], coordinates[0][1]), new mapboxgl.LngLat(coordinates[0][0], coordinates[0][1])));
+        map.fitBounds(bounds, {
+            padding: 20
+        });
+  });
+</script>
