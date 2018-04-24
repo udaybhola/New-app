@@ -11,8 +11,8 @@ gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 
 gem 'activerecord-postgis-adapter'
-gem 'pg', '~> 1'
-gem 'pg_search', '~> 2.1'
+
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -96,6 +96,7 @@ group :development, :test do
 end
 group :production do
   gem 'pg', '~> 1'
+  gem 'pg_search', '~> 2.1'
   gem 'rails_12factor'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
